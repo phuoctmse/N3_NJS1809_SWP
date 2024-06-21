@@ -30,7 +30,7 @@ Jewelry Store Sales Management Software for a jewelry business operating a singl
 | Sprints | Feature |
 |----------|----------|
 | 1   | User Authentication , Product Management, Promotion Management, Customer Information Management   |
-| 2   | Staff Management , Counter Management , Reporting, Account Management    |
+| 2   | Staff Management , Counter Management , Reporting  , Account Management    |
 | 3   | Order Management , Invoice Management , Payment Processing   |
 | 4   | Guarantee Management , Pricing Management , Buy-back Management   |
 
