@@ -35,8 +35,8 @@ Jewelry Store Sales Management Software for a jewelry business operating a singl
 | 4   | Guarantee Management , Pricing Management , Buy-back Management   |
 
 ## Tasks
-| Members | Sprints 1 | Sprint 2 | Sprint 3 |
-|----------|----------|----------|
+| Members | Sprints 1 | Sprint 2 | Sprint 3 | Sprint 4 |
+|----------|----------|----------|----------|----------|
 |Trương Minh Phước  | User Authentication | Staff Management | Payment Processing | |
 |Nguyễn Lê Khôi | Product Management | | Order Mangement | Guarantee Management |
 |Nguyễn Đông Giang | Promotion Management | Counter Management |  |
