@@ -25,3 +25,17 @@ Jewelry Store Sales Management Software for a jewelry business operating a singl
 | Nguyễn Lê Khôi    | Front-End    |
 | Ngô Thanh Nhật    | Back-End + API + Database    |
 | Nguyễn Anh Kiệt    | Back-End + API + Database    |
+
+## Sprints
+| Sprints | Feature |
+|----------|----------|
+| 1   | User Authentication , Product Management, Promotion Management, Customer Information Management   |
+| 2   | Staff Management , Counter Management , Reporting, Account Management    |
+| 3   | Order Management , Invoice Management , Payment Processing   |
+| 34  | Guarantee Management , Pricing Management , Buy-back Management   |
+
+## Tasks
+| Sprints | Memebers |
+|----------|----------|
+|1  | Trương Minh Phước , Nguyễn Lê Khôi , Nguyễn Đông Giang, Đỗ Nguyễn Mỹ Anh |
+
