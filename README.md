@@ -32,10 +32,14 @@ Jewelry Store Sales Management Software for a jewelry business operating a singl
 | 1   | User Authentication , Product Management, Promotion Management, Customer Information Management   |
 | 2   | Staff Management , Counter Management , Reporting, Account Management    |
 | 3   | Order Management , Invoice Management , Payment Processing   |
-| 34  | Guarantee Management , Pricing Management , Buy-back Management   |
+| 4   | Guarantee Management , Pricing Management , Buy-back Management   |
 
 ## Tasks
-| Sprints | Memebers |
-|----------|----------|
-|1  | Trương Minh Phước , Nguyễn Lê Khôi , Nguyễn Đông Giang, Đỗ Nguyễn Mỹ Anh |
+| Members | Sprints 1 | Sprint 2 |
+|----------|----------|----------|
+|Trương Minh Phước  | User Authentication | Staff Management |
+|Nguyễn Lê Khôi | Product Management | 
+|Nguyễn Đông Giang | Promotion Management | Counter Management
+|Đỗ Nguyễn Mỹ Anh | Customer Information Management | Reporting 
+|Hồ Hữu Phước | | Account Management
 
