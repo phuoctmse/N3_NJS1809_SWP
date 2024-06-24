@@ -27,9 +27,9 @@ Jewelry Store Sales Management Software for a jewelry business operating a singl
 | Nguyễn Anh Kiệt    | Back-End + API + Database    |
 
 ## Sprints
-| Sprints | Feature |
+| Sprints | Use Case |
 |----------|----------|
-| 1   | User Authentication , Product Management, Promotion Management, Customer Information Management   |
+| 1   | 01 , 02 , 03 -) 06 , 09 -) 013 , 029 -) 032   |
 | 2   | Staff Management , Counter Management , Reporting  , Account Management    |
 | 3   | Order Management , Invoice Management , Payment Processing   |
 | 4   | Guarantee Management , Pricing Management , Buy-back Management   |
@@ -37,9 +37,9 @@ Jewelry Store Sales Management Software for a jewelry business operating a singl
 ## Tasks
 | Members | Sprints 1 | Sprint 2 | Sprint 3 | Sprint 4 |
 |----------|----------|----------|----------|----------|
-|Trương Minh Phước  | User Authentication | Staff Management | Payment Processing | |
-|Nguyễn Lê Khôi | Product Management | | Order Mangement | Guarantee Management |
-|Nguyễn Đông Giang | Promotion Management | Counter Management |  |
-|Đỗ Nguyễn Mỹ Anh | Customer Information Management | Reporting | | Pricing Management |
+|Trương Minh Phước  | 01 , 02 | Staff Management | Payment Processing | |
+|Nguyễn Lê Khôi | 03 -) 06 | | Order Mangement | Guarantee Management |
+|Nguyễn Đông Giang | 09 -) 013 | Counter Management |  |
+|Đỗ Nguyễn Mỹ Anh | 029 -) 032 | Reporting | | Pricing Management |
 |Hồ Hữu Phước | | Account Management | Invoice Management | Buy-back Management |
 
