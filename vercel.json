@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "Code/Front-end/fe_2/package.json", "use": "@vercel/static-build" },
+      { "src": "Code/API/**/*", "use": "@vercel/node" },
+      { "src": "Code/Back-end/BEE-diamond-shop-system/**/*", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/api/(.*)", "dest": "Code/API/$1" },
+      { "src": "/backend/(.*)", "dest": "Code/Back-end/BEE-diamond-shop-system/$1" }
+    ]
+  }
+  
