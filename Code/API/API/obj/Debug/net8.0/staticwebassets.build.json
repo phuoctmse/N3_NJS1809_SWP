@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "9iVUj8ABrWalrCJfYcoDfU7axQM9wHmCVEyxKL0Cjv8=",
+  "Source": "API",
+  "BasePath": "_content/API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "API\\wwwroot",
+      "Source": "API",
+      "ContentRoot": "D:\\FPT University Semester\\2024\\Summer 2024\\SWP391\\be\\BEE-diamond-shop-system\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\FPT University Semester\\2024\\Summer 2024\\SWP391\\be\\BEE-diamond-shop-system\\API\\wwwroot\\swagger-ui\\SwaggerDark.css",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\FPT University Semester\\2024\\Summer 2024\\SWP391\\be\\BEE-diamond-shop-system\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "swagger-ui/SwaggerDark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger-ui\\SwaggerDark.css"
+    }
+  ]
+}
