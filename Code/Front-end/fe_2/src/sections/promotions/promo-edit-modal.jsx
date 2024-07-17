@@ -55,7 +55,18 @@ function PromotionEditForm({ open, onClose, onSubmit, promotion }) {
     tempErrors.description = formState.description ? "" : "Description is required";
     tempErrors.startDate = formState.startDate ? "" : "Start date is required";
     tempErrors.endDate = formState.endDate ? "" : "End date is required";
-    tempErrors.discountRate = formState.discountRate ? "" : "Discount rate is required";
+    const discountRate = parseFloat(formState.discountRate);
+    if (!formState.discountRate) {
+      tempErrors.discountRate = "Discount rate is required";
+    } else if (Number.isNaN(discountRate) || discountRate <= 0 || discountRate >= 100) {
+      tempErrors.discountRate = "Discount rate must be a number greater than 0 and less than 100";
+    }
+
+        // Check if startDate is equal to endDate
+        if (formState.startDate === formState.endDate) {
+          tempErrors.endDate = "End date must be different from start date";
+        }
+
 
     setErrors(tempErrors);
     return Object.values(tempErrors).every(x => x === "");
@@ -77,6 +88,11 @@ function PromotionEditForm({ open, onClose, onSubmit, promotion }) {
 
     if (startDateObj < currentDate || endDateObj < currentDate) {
       toast.error("Start date and end date cannot be in the past.");
+      return;
+    }
+
+    if ( endDateObj < startDateObj ) {
+      toast.error("End date cannot be after start .");
       return;
     }
 
