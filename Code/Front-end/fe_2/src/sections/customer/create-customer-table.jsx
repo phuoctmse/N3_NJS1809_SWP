@@ -14,7 +14,7 @@ import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 import { toast } from 'react-toastify';
 
-function CustomerForm({ open, onClose, onSubmit }) {
+function CustomerForm({ open, onClose, onSubmit, customers: existingCustomers }) {
   const initialFormState = {
     code: '',
     fullName: '',
@@ -22,6 +22,7 @@ function CustomerForm({ open, onClose, onSubmit }) {
     phone: '',
     gender: 'Female',
   };
+  console.log('existingCustomers', existingCustomers);
 
   const [formState, setFormState] = React.useState(initialFormState);
 
@@ -29,11 +30,48 @@ function CustomerForm({ open, onClose, onSubmit }) {
     setFormState({ ...formState, [e.target.name]: e.target.value });
   };
 
+  const validate = () => {
+    if (!formState.code) {
+      toast.error('Code is required');
+      return false;
+    }
+    if (!existingCustomers || existingCustomers.length === 0) {
+      return true; // Không có dữ liệu khách hàng, không kiểm tra trùng lặp
+    }
+    // if(!formState.code.match(/^[A-Z]{2}\d{4}$/)) {
+    //   toast.error('Code is not valid');
+    //   return false;
+    // }
+    if (existingCustomers.some(customer => customer.code === formState.code)) {
+      toast.error('Code already exists');
+      return false;
+    }
+    if (!formState.fullName) {
+      toast.error('Full Name is required');
+      return false;
+    }
+    if (!formState.address) {
+      toast.error('Address is required');
+      return false;
+    }
+    if (!formState.phone) {
+      toast.error('Phone number is required');
+      return false;
+    }
+    if (!formState.phone.match(/^\d{10}$/)) {
+      toast.error('Phone number is not valid');
+      return false;
+    }
+    return true;
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    onSubmit(formState);
-    setFormState(initialFormState);
-    onClose();
+    if (validate()) {
+      onSubmit(formState);
+      setFormState(initialFormState);
+      onClose();
+    }
   };
 
   const handleChageFullName = (e) => {
@@ -116,6 +154,7 @@ CustomerForm.propTypes = {
   open: PropTypes.bool.isRequired,
   onClose: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired,
+  customers: PropTypes.array.isRequired,
 };
 
 export default CustomerForm;

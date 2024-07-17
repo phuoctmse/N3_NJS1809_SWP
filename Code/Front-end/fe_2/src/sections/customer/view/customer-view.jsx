@@ -184,6 +184,7 @@ export default function CustomerPage() {
         open={showCustomerForm}
         onClose={handleCloseCustomerForm}
         onSubmit={handleNewCustomerClick}
+        customers={customer}
       />
 
       <Card>
@@ -223,6 +224,7 @@ export default function CustomerPage() {
                       selected={selected.indexOf(row.customerId) !== -1}
                       handleClick={(event) => handleClick(event, row.customerId)}
                       getCustomer={getCustomer}
+                      customers={customer}
                     />
                   ))}
 

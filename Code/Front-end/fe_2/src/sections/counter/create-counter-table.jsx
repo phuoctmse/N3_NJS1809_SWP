@@ -6,8 +6,9 @@ import { FormControl, Box, Typography } from '@mui/material';
 import Autocomplete from '@mui/material/Autocomplete';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
+import { toast } from 'react-toastify';
 
-function CrateCounterForm({ open, onClose, onSubmit }) {
+function CrateCounterForm({ open, onClose, onSubmit, counters }) {
   const initialFormState = {
     name: '', // số quầy
     users: [], // danh sách user phụ trách
@@ -23,12 +24,26 @@ function CrateCounterForm({ open, onClose, onSubmit }) {
   // const handleUsersChange = (event, value) => {
   //   setFormState({ ...formState, users: value });
   // };
+  const validate = () => {
+    if (!formState.name) {
+      toast.error('Name is required');
+      return false;
+    }
+    console.log('counters', counters);
+    if (counters.some((counter) => counter.name === formState.name)) {
+      toast.error('Name already exists');
+      return false;
+    }
+    return true;
+  }
 
   const handleSubmit = async (e) => {
     e.preventDefault(); // Ngăn chặn hành động submit mặc định của form
-    await onSubmit(formState); // Gọi addPromotion
-    setFormState(initialFormState); // Clear các trường của form sau khi submit
-    onClose();
+    if (validate()) {
+      await onSubmit(formState); // Gọi addPromotion
+      setFormState(initialFormState); // Clear các trường của form sau khi submit
+      onClose();
+    }
   };
 
   // const fetchAllStaffHasNoCounter = async () => {
@@ -95,6 +110,7 @@ CrateCounterForm.propTypes = {
   open: PropTypes.bool.isRequired,
   onClose: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired,
+  counters: PropTypes.array.isRequired,
 };
 
 export default CrateCounterForm;

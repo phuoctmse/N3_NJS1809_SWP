@@ -1,6 +1,7 @@
-import React,{useEffect} from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
+import { toast } from 'react-toastify';
 
 import Dialog from '@mui/material/Dialog';
 import Button from '@mui/material/Button';
@@ -10,74 +11,105 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 
 function PromotionEditForm({ open, onClose, onSubmit, promotion }) {
-  const [formState, setFormState] = React.useState({
+  const [formState, setFormState] = useState({
     ...promotion,
-    startDate: promotion.startDate ? new Date(promotion.startDate).toISOString().split('T')[0] : '',
-    endDate: promotion.endDate ? new Date(promotion.endDate).toISOString().split('T')[0] : '',
+    startDate: promotion.startDate ? new Date(promotion.startDate).toLocaleDateString('en-CA') : '',
+    endDate: promotion.endDate ? new Date(promotion.endDate).toLocaleDateString('en-CA') : '',
   });
-  const [promotions, setPromotions] = React.useState([]);
+  const [promotions, setPromotions] = useState([]);
+  const [errors, setErrors] = useState({});
 
   useEffect(() => {
     const fetchPromotions = async () => {
-      const response = await axios.get('http://localhost:5188/api/Promotion/GetPromotions');
-      setPromotions(response.data);
+      try {
+        const response = await axios.get('http://localhost:5188/api/Promotion/GetPromotions');
+        setPromotions(response.data);
+      } catch (error) {
+        toast.error('Failed to fetch promotions');
+      }
     };
 
     fetchPromotions();
   }, []);
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (promotion) {
       setFormState({
         ...promotion,
-        startDate: promotion.startDate
-          ? new Date(promotion.startDate).toISOString().split('T')[0]
-          : '',
-        endDate: promotion.endDate ? new Date(promotion.endDate).toISOString().split('T')[0] : '',
+        startDate: promotion.startDate ? new Date(promotion.startDate).toLocaleDateString('en-CA') : '',
+        endDate: promotion.endDate ? new Date(promotion.endDate).toLocaleDateString('en-CA') : '',
       });
     }
   }, [promotion]);
 
   const handleChange = (event) => {
-    setFormState({ ...formState, [event.target.name]: event.target.value });
+    const { name, value } = event.target;
+    setFormState({ ...formState, [name]: value });
+    if (errors[name]) {
+      setErrors({ ...errors, [name]: '' });
+    }
   };
 
+  const validateForm = () => {
+    const tempErrors = {};
+    tempErrors.description = formState.description ? "" : "Description is required";
+    tempErrors.startDate = formState.startDate ? "" : "Start date is required";
+    tempErrors.endDate = formState.endDate ? "" : "End date is required";
+    tempErrors.discountRate = formState.discountRate ? "" : "Discount rate is required";
+
+    setErrors(tempErrors);
+    return Object.values(tempErrors).every(x => x === "");
+  }
+
   const handleSubmit = (e) => {
-    e.preventDefault(); // Ngăn chặn hành động submit mặc định của form
-  
-    // Chuyển startDate và endDate sang đối tượng Date
+    e.preventDefault();
+
+    if (!validateForm()) {
+      toast.error("Please fill all required fields");
+      return;
+    }
+
     const startDateObj = new Date(formState.startDate);
     const endDateObj = new Date(formState.endDate);
     const currentDate = new Date();
-  
-    // Đặt giờ, phút, giây, và mili giây về 0 để chỉ so sánh ngày
+
     currentDate.setHours(0, 0, 0, 0);
-  
-    // Kiểm tra điều kiện
+
     if (startDateObj < currentDate || endDateObj < currentDate) {
-      alert("Start date and end date cannot be in the past.");
-      return; // Dừng hàm nếu điều kiện không được thoả mãn
+      toast.error("Start date and end date cannot be in the past.");
+      return;
     }
-  
-    // Kiểm tra xem startDate và endDate của mã giảm giá mới có trùng với mã giảm giá nào hiện có không
+
+    const formDiscountRate = Number(parseFloat(formState.discountRate).toFixed(2));
+
     const isOverlapping = promotions.some((promo) => {
+      if (promo.promotionId === formState.promotionId) {
+        return false; // Skip checking the current promotion
+      }
+
+      const promoDiscountRate = Number(parseFloat(promo.discountRate).toFixed(2));
+      if (promoDiscountRate !== formDiscountRate) {
+        return false; // Don't check for overlap if discount rates are different
+      }
+
       const existingStartDate = new Date(promo.startDate);
       const existingEndDate = new Date(promo.endDate);
-  
+
       return (
         (startDateObj >= existingStartDate && startDateObj <= existingEndDate) ||
         (endDateObj >= existingStartDate && endDateObj <= existingEndDate) ||
         (startDateObj <= existingStartDate && endDateObj >= existingEndDate)
       );
     });
-  
+
     if (isOverlapping) {
-      alert("The new promotion dates overlap with an existing promotion.");
-      return; // Dừng hàm nếu điều kiện không được thoả mãn
+      toast.error("A promotion with the same discount rate already exists for this period.");
+      return;
     }
-  
-    onSubmit(formState); // Gọi addPromotion
+
+    onSubmit(formState);
     onClose();
+    toast.success("Promotion updated successfully!");
   };
 
   return (
@@ -92,6 +124,8 @@ function PromotionEditForm({ open, onClose, onSubmit, promotion }) {
           type="text"
           fullWidth
           onChange={handleChange}
+          error={!!errors.description}
+          helperText={errors.description}
           InputProps={{ style: { marginBottom: 10 } }}
         />
         <TextField
@@ -102,7 +136,10 @@ function PromotionEditForm({ open, onClose, onSubmit, promotion }) {
           type="date"
           fullWidth
           onChange={handleChange}
+          error={!!errors.startDate}
+          helperText={errors.startDate}
           InputProps={{ style: { marginBottom: 10 } }}
+          InputLabelProps={{ shrink: true }}
         />
         <TextField
           margin="dense"
@@ -112,16 +149,21 @@ function PromotionEditForm({ open, onClose, onSubmit, promotion }) {
           type="date"
           fullWidth
           onChange={handleChange}
+          error={!!errors.endDate}
+          helperText={errors.endDate}
           InputProps={{ style: { marginBottom: 10 } }}
+          InputLabelProps={{ shrink: true }}
         />
         <TextField
           margin="dense"
           name="discountRate"
           label="Discount Rate"
           value={formState.discountRate}
-          type="text"
+          type="number"
           fullWidth
           onChange={handleChange}
+          error={!!errors.discountRate}
+          helperText={errors.discountRate}
           InputProps={{ style: { marginBottom: 10 } }}
         />
       </DialogContent>
@@ -140,7 +182,7 @@ PromotionEditForm.propTypes = {
   promotion: PropTypes.shape({
     promotionId: PropTypes.any,
     type: PropTypes.string,
-    discountRate: PropTypes.number,
+    discountRate: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
     startDate: PropTypes.string,
     endDate: PropTypes.string,
     approveManager: PropTypes.string,

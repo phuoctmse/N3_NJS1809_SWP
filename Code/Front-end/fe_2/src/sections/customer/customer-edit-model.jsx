@@ -12,6 +12,7 @@ import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
+import { toast } from 'react-toastify';
 
 function CustomerEditForm({ open, onClose, onSubmit, customer }) {
   const [formState, setFormState] = React.useState({
@@ -26,14 +27,52 @@ function CustomerEditForm({ open, onClose, onSubmit, customer }) {
     }
   }, [customer]);
 
+  const validate = () => {
+    if (!formState.code) {
+      toast.error('Code is required');
+      return false;
+    }
+    if (!customer || customer.length === 0) {
+      return true; // Không có dữ liệu khách hàng, không kiểm tra trùng lặp
+    }
+    // if(!formState.code.match(/^[A-Z]{2}\d{4}$/)) {
+    //   toast.error('Code is not valid');
+    //   return false;
+    // }
+    if (customer.some(cust => cust.code === formState.code && cust.id !== formState.id)) {
+      toast.error('Code already exists');
+      return false;
+    }
+    if (!formState.fullName) {
+      toast.error('Full Name is required');
+      return false;
+    }
+    if (!formState.address) {
+      toast.error('Address is required');
+      return false;
+    }
+    if (!formState.phone) {
+      toast.error('Phone number is required');
+      return false;
+    }
+    if (!formState.phone.match(/^\d{10}$/)) {
+      toast.error('Phone number is not valid');
+      return false;
+    }
+    return true;
+  };
+
+
   const handleChange = (event) => {
     setFormState({ ...formState, [event.target.name]: event.target.value });
   };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    onSubmit(formState);
-    onClose();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (validate()) {
+      onSubmit(formState);
+      onClose();
+    }
   };
 
   return (

@@ -22,6 +22,7 @@ import TableEmptyRows from '../table-empty-rows';
 import CounterTableToolbar from '../counter-table-toolbar';
 import { emptyRows, applyFilter, getComparator } from '../utils';
 
+
 // ----------------------------------------------------------------------
 
 export default function CounterView() {
@@ -32,6 +33,7 @@ export default function CounterView() {
     const [filterName, setFilterName] = useState('');
     const [rowsPerPage, setRowsPerPage] = useState(5);
     const [showCounterForm, setShowCounterForm] = useState(false);
+    const [counter, setCounter] = useState([]);
     const [counters, addCounter] = useState([]);
 
     const handleSort = (event, id) => {
@@ -111,6 +113,7 @@ export default function CounterView() {
         const response = await fetch('http://localhost:5188/api/Counter/GetCounters');
         const data = await response.json();
         addCounter(data);
+        setCounter(data);
     };
 
     useEffect(() => {
@@ -142,6 +145,7 @@ export default function CounterView() {
                 open={showCounterForm}
                 onClose={handleCloseCounterForm}
                 onSubmit={handleNewCounterClick}
+                counters={counters}
             />
 
             <Card>

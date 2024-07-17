@@ -9,6 +9,7 @@ import TextField from '@mui/material/TextField';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import { InputLabel, FormControl, Autocomplete } from '@mui/material';
+import { toast } from 'react-toastify';
 
 function StaffForm({ open, onClose, onSubmit, counterIdParam }) {
     const [counters, setCounters] = useState([]);
@@ -30,6 +31,36 @@ function StaffForm({ open, onClose, onSubmit, counterIdParam }) {
     const handleChange = (e) => {
         setFormState({ ...formState, [e.target.name]: e.target.value });
     };
+    
+    const validate = () => {
+        if (!formState.code) {
+            toast.error('Code is required');
+            return false;
+        }
+        if (!formState.fullName) {
+            toast.error('Full Name is required');
+            return false;
+        }
+        if (!formState.password) {
+            toast.error('Password is required');
+            return false;
+        }
+        if (!formState.phoneNumber) {
+            toast.error('Phone number is required');
+            return false;
+        }
+        if (!formState.email) {
+            toast.error('Email is required');
+            return false;
+        }
+        if (!formState.counterId) {
+            toast.error('Counter is required');
+            return false;
+        }
+        return true;
+    }
+
+
 
     const handleSubmit = async (e) => {
         e.preventDefault(); // Ngăn chặn hành động submit mặc định của form
@@ -37,9 +68,13 @@ function StaffForm({ open, onClose, onSubmit, counterIdParam }) {
         formState.counterId = parseInt(formState.counterId, 10);
         formState.status = formState.status === 'true';
         delete formState.userId;
-        await onSubmit(formState, () => {
-            setFormState(initialFormState); // Clear các trường của form sau khi submit
-        });
+        if(validate()){
+            await onSubmit(formState, () => {
+                setFormState(initialFormState); // Clear các trường của form sau khi submit
+                
+            });
+
+        }
     };
 
     const fetchCounters = async () => {
