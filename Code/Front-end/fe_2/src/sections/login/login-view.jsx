@@ -38,44 +38,49 @@ export default function LoginView() {
 
   const [showPassword, setShowPassword] = useState(false);
 
-// comment cho de dang nhap
-const handleClick = async() =>{
-  try {
-    const response = await axios.post("http://localhost:5188/api/User/Login", { email, password });
-    localStorage.setItem("TOKEN", response.data.token);
-    const token = jwtDecode(response.data.token);
-    // Assuming role is derived from the decoded token, this line was missing its definition
-    const role = token.role; // Extract role from token
-    console.log(role);
-    localStorage.setItem("ROLE", role);
-  if (role === "1") {
-    router.push('/dashboard');
-    window.location.reload();
-  }else if (role === "2") {
-    router.push('/dashboard');
-    window.location.reload();
-  } else if (role === "3") {
-    router.push('/sale');
-    window.location.reload();
-  }
-  } catch (e) {
-    toast.error("Error information login response");
-  }
-  
-}
-  
+  // comment cho de dang nhap
+  const handleClick = async () => {
+    if (!email.trim()) {
+      toast.error("Email is required");
+      return;
+    }
 
-  // const handleClick = () => {
-  //   router.push('/dashboard');
-  // };
+    if (!password.trim()) {
+      toast.error("Password is required");
+      return;
+    }
+
+    try {
+      const response = await axios.post("http://localhost:5188/api/User/Login", { email, password });
+      localStorage.setItem("TOKEN", response.data.token);
+      const token = jwtDecode(response.data.token);
+      // Assuming role is derived from the decoded token, this line was missing its definition
+      const role = token.role; // Extract role from token
+      console.log(role);
+      localStorage.setItem("ROLE", role);
+      if (role === "1") {
+        router.push('/dashboard');
+        window.location.reload();
+      } else if (role === "2") {
+        router.push('/dashboard');
+        window.location.reload();
+      } else if (role === "3") {
+        router.push('/sale');
+        window.location.reload();
+      }
+    } catch (e) {
+      toast.error("Email/Password is incorrect");
+    }
+
+  }
 
   const renderForm = (
-    
-   <>
+
+    <>
       <Stack spacing={3}>
         <TextField
-        onChange={(e) => setEmail(e.target.value)}
-        name="email" label="Email"  />
+          onChange={(e) => setEmail(e.target.value)}
+          name="email" label="Email" />
 
         <TextField
           name="password"
@@ -93,7 +98,7 @@ const handleClick = async() =>{
           }}
         />
       </Stack>
-      
+
 
       <Stack direction="row" alignItems="center" justifyContent="flex-end" sx={{ my: 3 }}>
         <Link variant="subtitle2" underline="hover">
@@ -110,8 +115,8 @@ const handleClick = async() =>{
       >
         Login
       </LoadingButton>
-     </>
-    
+    </>
+
   );
 
   return (
