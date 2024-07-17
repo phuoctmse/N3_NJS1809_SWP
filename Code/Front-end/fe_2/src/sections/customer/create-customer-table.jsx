@@ -50,8 +50,16 @@ function CustomerForm({ open, onClose, onSubmit, customers: existingCustomers })
       toast.error('Full Name is required');
       return false;
     }
+    if (formState.fullName.trim().split(' ').length < 2) {
+      toast.error('Full Name must contain at least 2 words');
+      return false;
+    }
     if (!formState.address) {
       toast.error('Address is required');
+      return false;
+    }
+    if (formState.address.trim().length < 2) {
+      toast.error('Address must contain at least 2 characters ');
       return false;
     }
     if (!formState.phone) {
