@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-
 import Select from '@mui/material/Select';
 import Dialog from '@mui/material/Dialog';
 import Button from '@mui/material/Button';
@@ -11,6 +10,7 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import { InputLabel, FormControl, Autocomplete } from '@mui/material';
 import CommonFunction from 'src/utils/commonFunction';
+import { toast } from 'react-toastify';
 
 function StaffEditForm({ open, onClose, onSubmit, staff }) {
     const [counters, setCounters] = useState([]);
@@ -39,10 +39,35 @@ function StaffEditForm({ open, onClose, onSubmit, staff }) {
         setFormState({ ...formState, [event.target.name]: event.target.value });
     };
 
+    const validate = () => {
+        const phoneRegex = /^[0-9]{9,}$/;
+        const role = localStorage.getItem('ROLE');
+
+        if (!formState.fullName || formState.fullName.trim().split(' ').length < 2) {
+            toast.error('Full Name must contain at least 2 words');
+            return false;
+        }
+        if (!formState.gender) {
+            toast.error('Gender is required');
+            return false;
+        }
+        if (!formState.phoneNumber || !phoneRegex.test(formState.phoneNumber)) {
+            toast.error('Phone number must be numeric and at least 9 digits');
+            return false;
+        }
+        if ((role !== '1' && role !== '2') && !formState.counterId) {
+            toast.error('Counter is required');
+            return false;
+        }
+        return true;
+    };
+
     const handleSubmit = async (event) => {
         event.preventDefault();
-        formState.status = formState.status === 'true';
-        await onSubmit(formState);
+        if (validate()) {
+            formState.status = formState.status === 'true';
+            await onSubmit(formState);
+        }
     };
 
     const fetchCounters = async () => {
@@ -51,9 +76,9 @@ function StaffEditForm({ open, onClose, onSubmit, staff }) {
         const res = data.map((item) => ({ label: item.name, value: item.counterId }));
         setCounters(res);
     };
+
     const role = localStorage.getItem('ROLE');
     CommonFunction.getRoleName(formState.roleId);
-
 
     return (
         <Dialog open={open} onClose={onClose} aria-labelledby="form-dialog-title">
@@ -84,11 +109,11 @@ function StaffEditForm({ open, onClose, onSubmit, staff }) {
                     <Select
                         labelId="gender-label"
                         name="gender"
-                        label="Role"
+                        label="Gender"
                         value={formState.gender}
                         onChange={handleChange}
                     >
-                        <MenuItem value="Male">Male </MenuItem>
+                        <MenuItem value="Male">Male</MenuItem>
                         <MenuItem value="Female">Female</MenuItem>
                         <MenuItem value="Other">Other</MenuItem>
                     </Select>
@@ -124,8 +149,6 @@ function StaffEditForm({ open, onClose, onSubmit, staff }) {
                             value={formState.roleId}
                             onChange={handleChange}
                         >
-                            {/* <MenuItem value="1">Admin</MenuItem>
-                   <MenuItem value="2">Manager</MenuItem> */}
                             <MenuItem value="3">Staff</MenuItem>
                         </Select>
                     </FormControl>
@@ -141,7 +164,6 @@ function StaffEditForm({ open, onClose, onSubmit, staff }) {
                         }}
                         renderInput={(params) => <TextField {...params} label="Counter" />}
                     />
-
                 )}
                 <FormControl fullWidth margin="dense">
                     <InputLabel id="status-label">Status</InputLabel>

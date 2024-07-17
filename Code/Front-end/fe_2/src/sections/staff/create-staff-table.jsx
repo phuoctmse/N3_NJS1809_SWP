@@ -31,26 +31,29 @@ function StaffForm({ open, onClose, onSubmit, counterIdParam }) {
     const handleChange = (e) => {
         setFormState({ ...formState, [e.target.name]: e.target.value });
     };
-    
+
     const validate = () => {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        const phoneRegex = /^[0-9]{9,}$/;
+
         if (!formState.code) {
             toast.error('Code is required');
             return false;
         }
-        if (!formState.fullName) {
-            toast.error('Full Name is required');
+        if (!formState.fullName || formState.fullName.trim().split(' ').length < 2) {
+            toast.error('Full Name must contain at least 2 words');
             return false;
         }
         if (!formState.password) {
             toast.error('Password is required');
             return false;
         }
-        if (!formState.phoneNumber) {
-            toast.error('Phone number is required');
+        if (!formState.phoneNumber || !phoneRegex.test(formState.phoneNumber)) {
+            toast.error('Phone number must be numeric and at least 9 digits');
             return false;
         }
-        if (!formState.email) {
-            toast.error('Email is required');
+        if (!formState.email || !emailRegex.test(formState.email)) {
+            toast.error('Email must be valid');
             return false;
         }
         if (!formState.counterId) {
@@ -61,17 +64,16 @@ function StaffForm({ open, onClose, onSubmit, counterIdParam }) {
     }
 
 
-
     const handleSubmit = async (e) => {
         e.preventDefault(); // Ngăn chặn hành động submit mặc định của form
         formState.roleId = parseInt(formState.roleId, 10);
         formState.counterId = parseInt(formState.counterId, 10);
         formState.status = formState.status === 'true';
         delete formState.userId;
-        if(validate()){
+        if (validate()) {
             await onSubmit(formState, () => {
                 setFormState(initialFormState); // Clear các trường của form sau khi submit
-                
+
             });
 
         }
