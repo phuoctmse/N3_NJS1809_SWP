@@ -37,8 +37,8 @@ Jewelry Store Sales Management Software for a jewelry business operating a singl
 | Members | Sprints 1 | Sprint 2 | 
 |----------|----------|----------|
 |Trương Minh Phước  | 01  | 06, 07 , 08 |
-|Nguyễn Lê Khôi |  | |
-|Nguyễn Đông Giang | | Counter Management | 
+|Nguyễn Lê Khôi |  |02, 03 , 04, 017, 018 |
+|Nguyễn Đông Giang | | Counte | 
 |Đỗ Nguyễn Mỹ Anh |  | Reporting | 
-|Hồ Hữu Phước | | Account Management | 
+|Hồ Hữu Phước | | 014 , 015 , 016 | 
 
