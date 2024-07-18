@@ -1,0 +1,1784 @@
+﻿Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Inward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Outward issue link (Blocks),Inward issue link (Cloners),Inward issue link (Cloners),Inward issue link (Cloners),Inward issue link (Cloners),Inward issue link (Cloners),Inward issue link (Cloners),Inward issue link (Cloners),Inward issue link (Cloners),Inward issue link (Cloners),Outward issue link (Cloners),Attachment,Attachment,Custom field (Actual Result),Custom field (Actual end),Custom field (Actual start),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Color),Custom field (Epic Link),Epic Link Summary,Custom field (Epic Name),Custom field (Epic Status),Custom field (Expected Result),Custom field (Impact),Custom field (Issue color),Custom field (Locked forms),Custom field (Open forms),Custom field (Rank),Custom field (Reason),Custom field (Request Type),Custom field (Score),Custom field (Sentiment),Sprint,Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Team Id,Team Name,Custom field (Test Level),Custom field (Test Steps),Custom field (TestCase Result),Custom field (Total forms),Custom field (Vulnerability),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Parent,Parent summary,Status Category,Status Category Changed
+T   CustomerName - Search Purchase Bill with Customer Name,N3NJS1809-178,10338,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 3:16 PM,18/Jul/24 3:17 PM,18/Jul/24 3:19 PM,,,0,SaleManagement,"T   - CustomerName - Search Purchase Bill with Customer Name
+
+
+* Steps we’ll take…
+1. Click “Search Purchase  Bill” buttom
+2. Fill “Nguyen Van B” to search Customer Name
+
+Success is:
+Bill with Customer Name “Nguyen Van B” appear including data",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-121,,,"A notification: ""Not found
+
+No results found for  ""Nguyen Van B""
+Cannot find Bill with Customer Name",,,,,,{},,,,,,Bills with Customer Name “Nguyen Van B” appear including data,,,,,0|i001x3:,,,,,,,,,,,,,,,Unit,"1. Click “Search Bill” buttom
+2. Fill “Nguyen Van B” to search Customer Name",Skip,,,,,,,To Do,18/Jul/24 3:16 PM
+CLONE - T37 Promotion Submit - Promotion with the same discount rate already exists for this period,N3NJS1809-177,10337,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 3:12 PM,18/Jul/24 3:12 PM,18/Jul/24 3:19 PM,,,0,,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-176,,,,,,,,,{},,,,,,,,,,,0|i001wv:,,,,,,,,,,,,,,,,,,,,,,,,To Do,18/Jul/24 3:12 PM
+T37 Promotion Submit - Promotion with the same discount rate already exists for this period,N3NJS1809-176,10336,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 3:12 PM,18/Jul/24 3:18 PM,18/Jul/24 3:19 PM,,,0,,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-177,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,0|i001wn:,,,,,,,,,,,,,,,,,,,,,,,,To Do,18/Jul/24 3:12 PM
+T33 Delete Counter - Delete Successfully,N3NJS1809-175,10335,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,18/Jul/24 3:08 PM,18/Jul/24 3:18 PM,18/Jul/24 3:19 PM,,,0,,"T31 Delete Staff - Deleted Successfully
+Steps we’ll take…
+
+# Click on 3 dot toggle, choose delete
+
+# A modal show counter information, click on delete 
+
+*Success is….*✨ 
+
+An success message “Deleted successfully” must be shown",,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,,,,,,,,,,N3NJS1809-171,,,,,,,,,,,,,,,,,,,,,An success message “Deleted successfully” must be shown,,,,,,{},,,,,,An success message “Deleted successfully” must be shown,,,,,0|i001wf:,,,,,,,,,,,,,,,,"Click on 3 dot toggle, choose delete
+
+A modal show counter information, click on delete",,,,,,,,To Do,18/Jul/24 3:08 PM
+UC 09 - Counter Management - Delete Counter,N3NJS1809-174,10334,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,18/Jul/24 3:00 PM,18/Jul/24 3:05 PM,18/Jul/24 3:19 PM,18/Jul/24 3:00 PM,,0,,"T.. Delete Promotion - Deleted Promotion Successfully
+Steps we’ll take…
+
+# Click on 3 dot toggle on row of counter,  choose delete
+# A modal show information promotion, click on delete 
+
+
+
+*Success is….*✨ 
+
+An success message “Delete successfully” must be shown",,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,,,,,,,,,,N3NJS1809-170,,,,,,,,,,,,,,,,,,,,,An success message “Delete successfully” must be shown,,,,,,{},,,,,,An success message “Delete successfully” must be shown,,,,,0|i001w7:,,,,,,,,,,,,,,,,"Click on 3 dot toggle on row of counter,  choose delete
+
+A modal show information promotion, click on delete",,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_338,,,Done,18/Jul/24 3:00 PM
+T  Purchase Bill code- Search Purchase Bill with Purchase Bill code,N3NJS1809-173,10333,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 2:55 PM,18/Jul/24 3:12 PM,18/Jul/24 3:19 PM,18/Jul/24 2:58 PM,,0,PurchaseManagement,"* T   Purchase Bill code  - Search Purchase  Bill with Purchase Bill code
+
+Steps we’ll take…
+1. Click “Search Search  Bill” buttom
+2. Fill “10” to search Purchase Bill code
+
+Success is:
+Bill with ID “10” appear including data",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-41,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-117,18/Jul/24 3:12 PM;rk:e437ebd3-624a-4e45-9026-7bfe25bae05d;z5645097673613_42706322d35840a3085304013a4a1700.jpg;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10217,,Bill with ID “10” appear including data,,,,,,{},,,,,,Bill with ID “10” appear including data,,,,,0|i001vz:,,,,,,,,,,,,,,,Unit,"1. Click “Search Bill” buttom
+2. Fill “10” to search BillId",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_195295,,,Done,18/Jul/24 2:58 PM
+UC11 - Counter Management - Create Counter,N3NJS1809-172,10332,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,18/Jul/24 2:52 PM,18/Jul/24 2:52 PM,18/Jul/24 3:19 PM,,,0,,,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-26,,,,,,,,,{},,N3NJS1809-4,Counter Management,,,,,purple,,,0|i001vr:,,,,,,,,,,,,,,,,,,,,,,10164,Counter Management,To Do,18/Jul/24 2:52 PM
+UC 10 - Counter Management - Update Counter,N3NJS1809-171,10331,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,18/Jul/24 2:52 PM,18/Jul/24 3:08 PM,18/Jul/24 3:19 PM,,,0,,,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,N3NJS1809-175,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-26,,,,,,,,,{},,N3NJS1809-4,Counter Management,,,,,purple,,,0|i001vj:,,,,,,,,,,,,,,,,,,,,,,10164,Counter Management,To Do,18/Jul/24 2:52 PM
+UC 09 - Counter Management - Delete Counter,N3NJS1809-170,10330,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,18/Jul/24 2:51 PM,18/Jul/24 3:00 PM,18/Jul/24 3:19 PM,,,0,,,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,N3NJS1809-174,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-26,,,,,,,,,{},,N3NJS1809-4,Counter Management,,,,,purple,,,0|i001vb:,,,,,,,,,,,,,,,,,,,,,,10164,Counter Management,To Do,18/Jul/24 2:51 PM
+T Adding item: Quantity must be greater than 0,N3NJS1809-169,10329,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 2:49 PM,18/Jul/24 2:54 PM,18/Jul/24 3:19 PM,18/Jul/24 2:50 PM,,0,PurchaseManagement,"T Adding item: Quantity must be greater than 0
+
+
+* Steps we’ll take…
+1. Click New Sale Bill button
+2. Fill all the fileds
+3. At Qty field, press “0“
+4. Click Save button
+Success is:
+A pop up:”Quantity must be greater than 0” appear",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-41,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-165,,,A pop up:”Quantity must be greater than 0” appear,,,,,,{},,,,,,A pop up:”Quantity must be greater than 0” appear,,,,,0|i001v3:,,,,,,,,,,,,,,,Unit,"1. Click New Sale Bill button
+2. Fill all the fileds
+3. At Qty field, press “0“
+4. Click Save button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_26733,,,Done,18/Jul/24 2:50 PM
+T  Adding Item: Selecting Item is required,N3NJS1809-168,10328,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 2:00 PM,18/Jul/24 2:54 PM,18/Jul/24 2:44 PM,18/Jul/24 2:00 PM,,0,PurchaseManagement,"T57 Adding Item: Selecting Item is required
+
+* Steps we’ll take…
+1. Click “New Sale Bill” button
+2. Press Add Item
+3. Do not select anything in Select Item field
+4. Press Save Button
+Success is:
+A pop up: “Please select all items”",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-41,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-157,18/Jul/24 2:02 PM;rk:e437ebd3-624a-4e45-9026-7bfe25bae05d;z5644926724197_c984a5fd2bd3e5d89af3609aa634813a.jpg;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10212,,A pop up: “Please select all items”,,,,,,{},,,,,,A pop up: “Please select all items”,,,,,0|i001uv:,,,,,,,,,,,,,,,Unit,"1. Click “New Sale Bill” button
+2. Press Add Item
+3. Do not select anything in Select Item field
+4. Press Save Button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_29759,,,Done,18/Jul/24 2:00 PM
+T  Adding Item: Adding item is required,N3NJS1809-167,10327,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 1:56 PM,18/Jul/24 2:54 PM,18/Jul/24 3:19 PM,18/Jul/24 1:58 PM,,0,PurchaseManagement,"* T  - Adding Item: Adding item is required
+Steps we’ll take…
+1. Click “New Sale Bill” button
+2. Fill Counter Name, Staff Name, Customer Name fields
+3. Press Save Button
+
+Success is:
+A pop up: “Please add at least one item”",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-41,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-141,18/Jul/24 1:57 PM;rk:e437ebd3-624a-4e45-9026-7bfe25bae05d;z5644926706109_b69967f14355f5c28e322e87b5c65257.jpg;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10208,,A pop up: “Please add at least one item”,,,,,,{},,,,,,A pop up: “Please add at least one item”,,,,,0|i001un:,,,,,,,,,,,,,,,Unit,"1. Click “New Sale Bill” button
+2. Fill Counter Name, Staff Name, Customer Name fields
+3. Press Save Button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_111610,,,Done,18/Jul/24 1:58 PM
+T Customer Name - Customer Name is required,N3NJS1809-166,10326,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 1:51 PM,18/Jul/24 2:53 PM,18/Jul/24 3:19 PM,18/Jul/24 1:52 PM,,0,PurchaseManagement,"T Customer Name - Customer Name is required
+Steps we’ll take…
+
+# Click “New Sale Bill” button
+# Do not fill anything in Customer Name field
+# Press Save Button
+
+Success is:
+A pop up: “Please select Customer”",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-41,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-147,18/Jul/24 1:52 PM;rk:e437ebd3-624a-4e45-9026-7bfe25bae05d;z5644926706112_31af8bbbbab35333761f98208585e4cb.jpg;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10206,,A pop up: “Please select Customer”,,,,,,{},,,,,,A pop up: “Please select Customer”,,,,,0|i001uf:,,,,,,,,,,,,,,,Unit,"1. Click “New Sale Bill” button
+
+2. Do not fill anything in Customer Name field
+
+3. Press Save Button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_35328,,,Done,18/Jul/24 1:52 PM
+T71 Adding item: Quantity must be greater than 0,N3NJS1809-165,10325,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,18/Jul/24 1:51 PM,18/Jul/24 2:49 PM,18/Jul/24 3:19 PM,18/Jul/24 1:52 PM,,0,SaleManagement,"T71 Adding item: Quantity must be greater than 0
+
+
+* Steps we’ll take…
+1. Click New Sale Bill button
+2. Fill all the fileds
+3. At Qty field, press “0“
+4. Click Save button
+Success is:
+A pop up:”Quantity must be greater than 0” appear",,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,,,,,,,,,,,,,,,,,,N3NJS1809-89,,,,,,,,,N3NJS1809-169,,,,,,,,,,18/Jul/24 1:49 PM;712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2;Screenshot (413).png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10205,,A pop up:”Quantity must be greater than 0” appear,,,,,,{},,,,,,A pop up:”Quantity must be greater than 0” appear,,,,,0|i001u7:,,,,,,,,,,,,,,,Unit,"1. Click New Sale Bill button
+2. Fill all the fileds
+3. At Qty field, press “0“
+4. Click Save button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_32264,,,Done,18/Jul/24 1:52 PM
+T  Staff Name - Staff name is required,N3NJS1809-164,10324,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 1:49 PM,18/Jul/24 2:53 PM,18/Jul/24 3:19 PM,18/Jul/24 1:49 PM,,0,PurchaseManagement,"T  - Staff Name - Staff name is required
+
+
+* Steps we’ll take…
+1. Click “New Sale Bill” button
+2. Do not fill anything in Staff Name field
+3. Press Save Button
+
+Success is:
+A pop up: “Please select staff”",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-41,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-137,18/Jul/24 1:50 PM;rk:e437ebd3-624a-4e45-9026-7bfe25bae05d;z5644926683497_b0848a72c7e6f022e692492d4c102531.jpg;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10204,,A pop up: “Please select staff”,,,,,,{},,,,,,A pop up: “Please select staff”,,,,,0|i001tz:,,,,,,,,,,,,,,,Unit,"1. Click “New Sale Bill” button
+2. Do not fill anything in Staff Name field
+3. Press Save Button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_24726,,,Done,18/Jul/24 1:49 PM
+T.. Submit - Code already exist,N3NJS1809-163,10323,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,18/Jul/24 1:47 PM,18/Jul/24 1:52 PM,18/Jul/24 3:19 PM,18/Jul/24 1:52 PM,,0,CreateCustomer,"T27 Submit - Email or Code already exist
+Steps we’ll take…
+
+# Input a customer code that has already been created 
+# Input the rest fields correctly
+# Click on Submit button 
+
+
+
+*Success is….*✨ 
+
+An error message “Code already exist” must be shown",,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,,,,,,,,,,N3NJS1809-44,,,,,,,,,,,,,,,,,,N3NJS1809-98,,,An error message “Code already exist” must be shown,,,,,,{},,,,,,An error message “Code already exist” must be shown,,,,,0|i001tr:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,e11a2516-80c3-4f0b-8283-ce0ed24438e6,N3_NJS1809,Unit,"Input a customer code that has already been created 
+
+Input the rest fields correctly
+
+Click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_321487,,,Done,18/Jul/24 1:52 PM
+T Counter Name - Counter Name is required,N3NJS1809-162,10322,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 1:42 PM,18/Jul/24 2:53 PM,18/Jul/24 3:19 PM,18/Jul/24 1:43 PM,,0,PurchaseManagement,"* T  - Counter Name - Counter Name is required
+Steps we’ll take…
+1. Click “New Sale Bill” button
+2. Do not fill anything in Customer Name field
+3. Press Save Button
+
+Success is:
+A pop up: “Please select counter”",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-41,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-133,18/Jul/24 1:44 PM;rk:e437ebd3-624a-4e45-9026-7bfe25bae05d;z5644926683369_1e5f9a568efb86b4ab42fa29160f8983.jpg;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10200,,A pop up: “Please select counter”,,,,,,{},,,,,,A pop up: “Please select counter”,,,,,0|i001tj:,,,,,,,,,,,,,,,Unit,"1. Click “New Sale Bill” button
+2. Do not fill anything in Counter Name field
+3. Press Save Button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_13296,,,Done,18/Jul/24 1:43 PM
+T  Staff Name - Staff name must be retrieved from the database,N3NJS1809-161,10321,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 1:40 PM,18/Jul/24 2:52 PM,18/Jul/24 3:19 PM,18/Jul/24 1:41 PM,,0,PurchaseManagement,"* T  - Staff Name - Staff name must be retrieved from the database
+Steps we’ll take…
+1. Click New Sale Bill button
+2. At Staff Name field, there must have name of Staff that was created in database. Example: Chris Nguyen
+Success is:
+Display all the Staff name that was created in database",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-41,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-101,18/Jul/24 1:47 PM;rk:e437ebd3-624a-4e45-9026-7bfe25bae05d;z5644948981098_56b8e8dbe18d5a1a1499ae6fdc41a333.jpg;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10202,,Display all the Staff name that was created in database,,,,,,{},,,,,,Display all the Staff name that was created in database,,,,,0|i001tb:,,,,,,,,,,,,,,,Unit,"Steps we’ll take…
+1. Click New Sale Bill button
+2. At Staff Name field, there must have name of Staff that was created in database. Example: Chris Nguyen",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_13180,,,Done,18/Jul/24 1:41 PM
+T   Counter Name - Counter Name must be retrieved from the database.,N3NJS1809-160,10320,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 1:38 PM,18/Jul/24 2:52 PM,18/Jul/24 3:19 PM,18/Jul/24 1:39 PM,,0,PurchaseManagement,"* T  - Counter Name - Counter Name must be retrieved from the database.|
+Steps we’ll take…
+1. Click New Sale Bill button
+2. At Counter Name field, there must have Name of Counter that was created in database. Example: 312, 231, 431
+
+Success is:
+Display all the counter name that was created in database",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-41,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-100,18/Jul/24 1:46 PM;rk:e437ebd3-624a-4e45-9026-7bfe25bae05d;z5644948962266_bdc990c364ab967040bd2da5ab65bbf6.jpg;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10201,,Display all the counter name that was created in database,,,,,,{},,,,,,Display all the counter name that was created in database,,,,,0|i001t3:,,,,,,,,,,,,,,,Unit,"Steps we’ll take…
+1. Click New Sale Bill button
+2. At Counter Name field, there must have Name of Counter that was created in database. Example: 312, 231, 431",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_51437,,,Done,18/Jul/24 1:39 PM
+T.. Delete Customer - Deleted Successfully,N3NJS1809-159,10319,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,18/Jul/24 1:38 PM,18/Jul/24 1:41 PM,18/Jul/24 3:19 PM,,,0,CreateCustomer,"T.. Delete Customer - Deleted Successfully
+Steps we’ll take…
+
+# Click on 3 dot toggle on row of customer, choose delete
+# A modal show customer information, click delete
+
+ 
+
+*Success is….*✨
+
+An success message “Delete successfully” must be shown",,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,,,,,,,,,,N3NJS1809-45,,,,,,,,,,,,,,,,,,N3NJS1809-98,,,An success message “Delete successfully” must be shown,,,,,,{},,,,,,An success message “Delete successfully” must be shown,,,,,0|i001sv:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,e11a2516-80c3-4f0b-8283-ce0ed24438e6,N3_NJS1809,Unit,"1. Click on 3 dot toggle on row of customer, choose delete
+2. A modal show customer information, click delete",Pass,,,,,,,To Do,18/Jul/24 1:38 PM
+UC19 - Purchase Management - Search Purchase,N3NJS1809-158,10318,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 1:35 PM,18/Jul/24 2:55 PM,18/Jul/24 3:19 PM,,,0,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-41,,,,,,,,,{},,N3NJS1809-8,Purchase Management,,,,,purple,,,0|i0014j:,,,,,NJS1809 Sprint 2,,,,,,,,,,,,,,,,,10168,Purchase Management,To Do,18/Jul/24 1:35 PM
+T  - Adding Item: Selecting Item is required,N3NJS1809-157,10317,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,18/Jul/24 1:30 PM,18/Jul/24 2:00 PM,18/Jul/24 3:19 PM,18/Jul/24 1:31 PM,,0,SaleManagement,"T57 Adding Item: Selecting Item is required
+
+* Steps we’ll take…
+1. Click “New Sale Bill” button
+2. Press Add Item
+3. Do not select anything in Select Item field
+4. Press Save Button
+Success is:
+A pop up: “Please select all items”",,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,,,,,,,,,,,,,,,,,,N3NJS1809-89,,,,,,,,,N3NJS1809-168,,,,,,,,,,18/Jul/24 1:30 PM;712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2;Screenshot (402).png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10193,,A pop up: “Please select all items”,,,,,,{},,,,,,A pop up: “Please select all items”,,,,,0|i001sf:,,,,,,,,,,,,,,,Unit,"1. Click “New Sale Bill” button
+2. Press Add Item
+3. Do not select anything in Select Item field
+4. Press Save Button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_23197,,,Done,18/Jul/24 1:31 PM
+T.. Promotion Discount Rate Verification - Promotion Discount Rate  is greater than 0 and less than 100,N3NJS1809-156,10316,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 1:28 PM,18/Jul/24 2:32 PM,18/Jul/24 3:19 PM,18/Jul/24 2:10 PM,,0,PromotionManagement,"T.. Promotion Discount Rate is greater than 0 and less than 100
+Steps we’ll take…
+
+# Click on 3 dot toggle , choose edit
+# Clear Discount Rate  field
+# Enter “-10” in Discount Rate field
+# click on Submit button 
+
+
+
+*Success is….*✨ 
+
+An error message “Discount rate must be a number greater than 0 and less than 100” must be shown",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-29,,,,,,,,,,,,,,,,,,N3NJS1809-110,18/Jul/24 2:11 PM;rk:36857ca5-8748-41ca-9be9-6234f9cee3b9;Screenshot 2024-07-18 141049.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10215,,An error message “Discount rate must be a number greater than 0 and less than 100” is shown,,,,,,{},,,,,,An error message “Discount rate must be a number greater than 0 and less than 100” must be shown,,,,,0|i001s7:,,,,,NJS1809 Sprint 2,,,,,,,,,,Unit,"1. Click on 3 dot toggle , choose edit
+2. Clear Dscount Rate  field
+3. Enter “-10” in Discount Rate field
+4. click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_2548713,,,Done,18/Jul/24 2:10 PM
+T.. Promotion Discount Rate Verification - Promotion Discount Rate is required,N3NJS1809-155,10315,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 1:27 PM,18/Jul/24 2:03 PM,18/Jul/24 3:19 PM,18/Jul/24 2:02 PM,,0,PromotionManagement,"T.. Promotion Discount Rate is required
+Steps we’ll take…
+
+# Click on 3 dot toggle , choose edit
+# Clear Discount Rate  field
+# Do not input any value in Discount Rate field 
+# click on Submit button 
+
+
+
+*Success is….*✨ 
+
+An error message “Discount Rate is required” must be shown",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-29,,,,,,,,,,,,,,,,,,N3NJS1809-109,18/Jul/24 2:03 PM;rk:36857ca5-8748-41ca-9be9-6234f9cee3b9;Screenshot 2024-07-18 140259.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10213,,An error message “Discount Rate is required” is shown,,,,,,{},,,,,,An error message “Discount Rate is required” must be shown,,,,,0|i001rz:,,,,,NJS1809 Sprint 2,,,,,,,,,,Unit,"1. Click on 3 dot toggle , choose edit
+2. Clear Discount Rate  field
+3. Do not input any value in Discount Rate field 
+4. click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_2082281,,,Done,18/Jul/24 2:02 PM
+T.. Promotion End Date Verification - Promotion End Date must be after  Promotion Start Date,N3NJS1809-154,10314,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 1:27 PM,18/Jul/24 2:00 PM,18/Jul/24 3:19 PM,18/Jul/24 2:00 PM,,0,PromotionManagement,"T.. Promotion End Date must be after Promotion Start Date
+Steps we’ll take…
+
+# Click on 3 dot toggle , choose edit
+# Clear Start Date field End Date field
+# Enter a date “7/20/2024” in Start Date field and “7/19/2024” in End Date field
+# click on Submit button 
+
+
+
+*Success is….*✨ 
+
+An error toast message “End date cannot be after Start date” must be shown",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-29,,,,,,,,,,,,,,,,,,N3NJS1809-108,18/Jul/24 2:00 PM;rk:36857ca5-8748-41ca-9be9-6234f9cee3b9;Screenshot 2024-07-18 140012.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10211,,An error toast message “End date cannot be after Start date” is shown,,,,,,{},,,,,,An error toast message “End date cannot be after Start date” must be shown,,,,,0|i001rr:,,,,,NJS1809 Sprint 2,,,,,,,,,,Unit,"1. Click on 3 dot toggle , choose edit
+2. Clear Start Date field End Date field
+3. Enter a date “7/20/2024” in Start Date field and “7/19/2024” in End Date field
+4. click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1988750,,,Done,18/Jul/24 2:00 PM
+T.. Phone Number - Phone Number must be numeric and have 10 digits.,N3NJS1809-153,10313,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,18/Jul/24 1:27 PM,18/Jul/24 1:34 PM,18/Jul/24 3:19 PM,18/Jul/24 1:34 PM,,0,CreateCustomer,"T.. Code is required
+Steps we’ll take…
+
+# Input less than 9 numbers in Phone Number field
+# Input the rest fields correctly
+# Click on Submit button
+
+ *Success is….*✨
+
+An error message “Phone Number must be numeric and have 10 digits” must be shown",,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,,,,,,,,,,N3NJS1809-44,,,,,,,,,,,,,,,,,,N3NJS1809-98,,,An error message “Phone Number must be numeric and have 10 digits” must be shown,,,,,,{},,,,,,An error message “Phone Number must be numeric and have 10 digits” must be shown,,,,,0|i001rj:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,e11a2516-80c3-4f0b-8283-ce0ed24438e6,N3_NJS1809,Unit,"1. Input less than 9 numbers in Phone Number field
+
+2. Input the rest fields correctly
+
+3. Click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_373128,,,Done,18/Jul/24 1:34 PM
+T.. Promotion End Date Verification - Promotion End Date must not be in the past,N3NJS1809-152,10312,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 1:27 PM,18/Jul/24 2:06 PM,18/Jul/24 3:19 PM,18/Jul/24 1:53 PM,,0,PromotionManagement,"T.. Promotion End Date must not be in the past
+Steps we’ll take…
+
+# Click on 3 dot toggle , choose edit
+# Clear End Date field 
+# Enter a date “7/12/2024” in End Date field which is before current date “7/18/2024
+# click on Submit button 
+
+
+
+*Success is….*✨ 
+
+An error toast message “Start date and End date cannot be in the past” must be shown",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-29,,,,,,,,,,,,,,,,,,N3NJS1809-107,18/Jul/24 1:58 PM;rk:36857ca5-8748-41ca-9be9-6234f9cee3b9;Screenshot 2024-07-18 135611.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10209,,An error toast message “Start date and End date cannot be in the past” is shown,,,,,,{},,,,,,An error toast message “Start date and End date cannot be in the past” must be shown,,,,,0|i001rb:,,,,,NJS1809 Sprint 2,,,,,,,,,,Unit,"1. Click on 3 dot toggle , choose edit
+2. Clear End Date field 
+3. Enter a date  “7/12/2024” in End Date field which is before current date “7/18/2024
+4. click on Submit button ",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1550394,,,Done,18/Jul/24 1:53 PM
+ T.. Promotion End Date Verification - Promotion End Date is required,N3NJS1809-151,10311,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 1:27 PM,18/Jul/24 1:49 PM,18/Jul/24 3:19 PM,18/Jul/24 1:48 PM,,0,PromotionManagement,"T.. Promotion End Date is required
+Steps we’ll take…
+
+# Click on 3 dot toggle , choose edit
+# Clear End Date field
+# Do not input any value in End Date field 
+# Click on Submit button 
+
+
+
+*Success is….*✨ 
+
+An error message “End date is required” must be shown",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-29,,,,,,,,,,,,,,,,,,N3NJS1809-105,18/Jul/24 1:49 PM;rk:36857ca5-8748-41ca-9be9-6234f9cee3b9;Screenshot 2024-07-18 134907.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10203,,An error message “End date is required” is shown,,,,,,{},,,,,,An error message “End date is required” must be shown,,,,,0|i001r3:,,,,,NJS1809 Sprint 2,,,,,,,,,,Unit,"1. Click on 3 dot toggle , choose edit
+2. Clear End Date field
+3. Do not input any value in End Date field 
+4. Click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1239601,,,Done,18/Jul/24 1:48 PM
+T.. Promotion Start Date Verification - Promotion Start Date must not be in the past,N3NJS1809-150,10310,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 1:27 PM,18/Jul/24 1:43 PM,18/Jul/24 3:19 PM,18/Jul/24 1:42 PM,,0,PromotionManagement,"T.. Promotion Start Date must not be in the past
+Steps we’ll take…
+
+# Click on 3 dot toggle , choose edit
+# Clear Start Date field
+#  Enter a date “7/10/2024” in Start Date field which is before current date “7/18/2024
+# click on Submit button 
+
+
+
+*Success is….*✨ 
+
+An error toast message “Start date and End date cannot be in the past” must be shown",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-29,,,,,,,,,,,,,,,,,,N3NJS1809-104,18/Jul/24 1:43 PM;rk:36857ca5-8748-41ca-9be9-6234f9cee3b9;Screenshot 2024-07-18 134314.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10199,,An error toast message “Start date and End date cannot be in the past” is shown,,,,,,{},,,,,,An error toast message “Start date and End date cannot be in the past” must be shown,,,,,0|i001qv:,,,,,NJS1809 Sprint 2,,,,,,,,,,Unit,"1. Click on 3 dot toggle , choose edit
+2. Clear Start Date field
+3. Enter a date “7/10/2024” in Start Date field which is before current date “7/18/2024
+4. click on Submit button ",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_913312,,,Done,18/Jul/24 1:42 PM
+T.. Promotion Start Date  Verification - Promotion Start Date is required,N3NJS1809-149,10309,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 1:27 PM,18/Jul/24 2:11 PM,18/Jul/24 3:19 PM,18/Jul/24 1:38 PM,,0,PromotionManagement,"T.. Promotion Start Date is required
+Steps we’ll take…
+
+# Click on 3 dot toggle , choose edit
+# Clear Start Date field
+# .Do not input any value in Promotion Start Date field 
+# click on Submit button 
+
+
+
+*Success is….*✨ 
+
+An error message “Start date is required” must be shown",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-29,,,,,,,,,,,,,,,,,,N3NJS1809-103,18/Jul/24 1:38 PM;rk:36857ca5-8748-41ca-9be9-6234f9cee3b9;Screenshot 2024-07-18 133801.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10195,,An error message “Start date is required” is shown,,,,,,{},,,,,,An error message “Start date is required” must be shown,,,,,0|i001qn:,,,,,NJS1809 Sprint 2,,,,,,,,,,Unit,"1. Click on 3 dot toggle , choose edit
+2. Clear Start Date field
+3. Do not input any value in Promotion Start Date field 
+4. click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_690614,,,Done,18/Jul/24 1:38 PM
+T.. Promotion Description Verification - Promotion Description is required,N3NJS1809-148,10308,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 1:26 PM,18/Jul/24 1:36 PM,18/Jul/24 3:19 PM,18/Jul/24 1:36 PM,,0,PromotionManagement,"T.. Promotion Description is required
+Steps we’ll take…
+
+# Click on 3 dot toggle , choose edit
+# Clear Promotion field
+# .Do not input any value in Promotion field 
+# Keep value of all rest fields 
+# Click on Submit button
+
+ 
+
+*Success is….*✨
+
+An error message “Description is required” must be shown",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-29,,,,,,,,,,,,,,,,,,N3NJS1809-102,18/Jul/24 1:35 PM;rk:36857ca5-8748-41ca-9be9-6234f9cee3b9;Screenshot 2024-07-18 133537.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10194,,An error message “Description is required” is shown,,,,,,{},,,,,,An error message “Description is required” must be shown ,,,,,0|i001qf:,,,,,NJS1809 Sprint 2,,,,,,,,,,Unit,"1. Click on 3 dot toggle , choose edit
+2. Clear Promotion field
+3. Do not input any value in Promotion field 
+4. Keep value of all rest fields 
+5. Click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_555498,,,Done,18/Jul/24 1:36 PM
+T55  - Customer Name: Customer Name is required,N3NJS1809-147,10307,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,18/Jul/24 1:26 PM,18/Jul/24 1:51 PM,18/Jul/24 3:19 PM,18/Jul/24 1:26 PM,,0,SaleManagement,"T55  - Customer Name: Customer Name is required
+Steps we’ll take…
+
+# Click “New Sale Bill” button
+# Do not fill anything in Customer Name field
+# Press Save Button
+
+Success is:
+A pop up: “Please select Customer”",,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,,,,,,,,,,,,,,,,,,N3NJS1809-89,,,,,,,,,N3NJS1809-166,,,,,,,,,,18/Jul/24 1:26 PM;712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2;Screenshot (400).png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10192,,A pop up: “Please select Customer”,,,,,,{},,,,,,A pop up: “Please select Customer”,,,,,0|i001q7:,,,,,,,,,,,,,,,Unit,"1. Click “New Sale Bill” button
+
+2. Do not fill anything in Customer Name field
+
+3. Press Save Button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_25860,,,Done,18/Jul/24 1:26 PM
+T.. Phone Number Verification - Phone Number is required,N3NJS1809-146,10306,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,18/Jul/24 1:25 PM,18/Jul/24 1:34 PM,18/Jul/24 3:19 PM,18/Jul/24 1:34 PM,,0,CreateCustomer,"T.. Phone Number is required
+Steps we’ll take…
+
+# Do not input any value in Phone Number field
+# Input the rest fields correctly
+# Click on Submit button
+
+ *Success is….*✨
+
+An error message “Phone Number is required” must be shown",,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,,,,,,,,,,N3NJS1809-44,,,,,,,,,,,,,,,,,,N3NJS1809-98,,,An error message “Phone Number is required” is shown,,,,,,{},,,,,,An error message “Phone Number is required” is shown,,,,,0|i001pz:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,e11a2516-80c3-4f0b-8283-ce0ed24438e6,N3_NJS1809,Unit,"1. Do not input any value in Phone Number field
+2. Input the rest fields correctly
+3. Click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_496093,,,Done,18/Jul/24 1:34 PM
+T.. Full Name Verification - Full Name is required,N3NJS1809-145,10305,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,18/Jul/24 1:23 PM,18/Jul/24 1:34 PM,18/Jul/24 3:19 PM,18/Jul/24 1:34 PM,,0,CreateCustomer,"T.. Full Name is required
+Steps we’ll take…
+
+# Do not input any value in Full Name field
+# Input the rest fields correctly
+# Click on Submit button
+
+ *Success is….*✨
+
+An error message “Full Name is required” must be shown",,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,,,,,,,,,,N3NJS1809-44,,,,,,,,,,,,,,,,,,N3NJS1809-98,,,An error message “Full Name is required” is shown,,,,,,{},,,,,,An error message “Full Name is required” is shown,,,,,0|i001pr:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,e11a2516-80c3-4f0b-8283-ce0ed24438e6,N3_NJS1809,Unit,"1.Do not input any value in Full Name field
+
+2. Input the rest fields correctly
+
+3. Click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_634826,,,Done,18/Jul/24 1:34 PM
+T20 Jewellery Type - Jewellery Type must be selected,N3NJS1809-144,10304,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 1:20 PM,18/Jul/24 1:20 PM,18/Jul/24 3:19 PM,,,0,ProductManagement,"T20 Jewellery Type - Jewellery Type must be selected
+
+Steps we’ll take… 
+
+# Press “New Jewellery” button
+# Do not  selected the Jewellery Type field
+# Press Add 
+
+Success is….
+
+ An toast “Jewellery Type is required ” must be shown",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-24,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-124,,,,,,,,,{},,,,,,An toast “Jewellery Type is required ” must be shown,,,,,0|i001pj:,,,,,,,,,,,,,,,Unit,"Press “New Jewellery” button
+
+Do not  selected the Jewellery Type field
+
+Press Add",Skip,,,,,,,To Do,18/Jul/24 1:20 PM
+"T..Full Name - Full Name must contain at least 2 words
+",N3NJS1809-143,10303,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,18/Jul/24 1:19 PM,18/Jul/24 1:34 PM,18/Jul/24 3:19 PM,18/Jul/24 1:34 PM,,0,CreateCustomer,"T22 Full Name Verification - Full Name must contain at least 2 words
+Steps we’ll take…
+
+# Input any 1 word in Full Name field (ex: A)
+# Input the rest fields correctly
+# Click on Submit 
+
+
+
+*Success is….*✨ 
+
+An error message “Full Name must contain at least 2 words” must be shown",,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,,,,,,,,,,N3NJS1809-44,,,,,,,,,,,,,,,,,,N3NJS1809-98,,,An error message “Full Name must contain at least 2 words” must be shown,,,,,,{},,,,,,An error message “Full Name must contain at least 2 words” must be shown,,,,,0|i001pb:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,e11a2516-80c3-4f0b-8283-ce0ed24438e6,N3_NJS1809,Unit,"1. Input any 1 word in Full Name field (ex: A)
+2. Input the rest fields correctly
+3. Click on Submit",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_885077,,,Done,18/Jul/24 1:34 PM
+T19 Gem Type - Gem Type must be selected,N3NJS1809-142,10302,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 1:19 PM,18/Jul/24 1:19 PM,18/Jul/24 3:19 PM,,,0,ProductManagement,"T19 Gem Type - Gem Type must be selected
+
+Steps we’ll take… 
+
+# Press “New Jewellery” button
+# Do not  selected the Gem Type field
+# Press Add 
+
+Success is….
+
+ An toast “Gem Type is required ” must be shown",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-24,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-122,,,,,,,,,{},,,,,,An toast “Gem Type is required ” must be shown,,,,,0|i001p3:,,,,,,,,,,,,,,,Unit,"Press “New Jewellery” button
+
+Do not  selected the Gem Type field
+
+Press Add",Skip,,,,,,,To Do,18/Jul/24 1:19 PM
+T  - Adding Item: Adding item is required,N3NJS1809-141,10301,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,18/Jul/24 1:18 PM,18/Jul/24 1:56 PM,18/Jul/24 3:19 PM,18/Jul/24 1:20 PM,,0,SaleManagement,"* T  - Adding Item: Adding item is required
+Steps we’ll take…
+1. Click “New Sale Bill” button
+2. Fill Counter Name, Staff Name, Customer Name fields
+3. Press Save Button
+
+Success is:
+A pop up: “Please add at least one item”",,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,,,,,,,,,,,,,,,,,,N3NJS1809-89,,,,,,,,,N3NJS1809-167,,,,,,,,,,18/Jul/24 1:20 PM;712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2;Screenshot (399).png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10191,,A pop up: “Please add at least one item”,,,,,,{},,,,,,A pop up: “Please add at least one item”,,,,,0|i001ov:,,,,,,,,,,,,,,,Unit,"1. Click “New Sale Bill” button
+2. Fill Counter Name, Staff Name, Customer Name fields
+3. Press Save Button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_91509,,,Done,18/Jul/24 1:20 PM
+T18 Gold Type -  Gold Type must be selected,N3NJS1809-140,10300,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 1:14 PM,18/Jul/24 1:17 PM,18/Jul/24 3:19 PM,,,0,ProductManagement,"T18 Gold Type -  Gold Type must be selected
+
+Steps we’ll take… 
+
+# Press “New Jewellery” button
+# Do not  selected the Gold Type field
+# Press Add 
+
+Success is….
+
+ An toast “Gold Type is required ” must be shown",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-24,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-119,,,,,,,,,{},,,,,,An toast “Gold Type is required ” must be shown,,,,,0|i001on:,,,,,,,,,,,,,,,Unit,"Press “New Jewellery” button
+
+Do not  selected the Gold Type field
+
+Press Add",Skip,,,,,,,To Do,18/Jul/24 1:14 PM
+T.. Delete Promotion - Deleted Promotion Successfully,N3NJS1809-139,10299,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 1:13 PM,18/Jul/24 1:21 PM,18/Jul/24 3:19 PM,18/Jul/24 1:21 PM,,0,PromotionManagement,"T.. Delete Promotion - Deleted Promotion Successfully
+Steps we’ll take…
+
+# Click on 3 dot toggle on row of promotion,  choose delete
+# A modal show information promotion, click on delete 
+
+
+
+*Success is….*✨ 
+
+An success message “Delete success” must be shown",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-30,,,,,,,,,,,,,,,,,,,18/Jul/24 1:19 PM;rk:36857ca5-8748-41ca-9be9-6234f9cee3b9;Screenshot 2024-07-18 131930.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10190,,An success message “Delete success” is shown,,,,,,{},,,,,,An success message “Delete success” must be shown,,,,,0|i001of:,,,,,NJS1809 Sprint 2,,,,,,,,,,Unit,"1. Click on 3 dot toggle on row of promotion,  choose delete
+2. A modal show information promotion, click on delete",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_451782,,,Done,18/Jul/24 1:21 PM
+T.. Address Verification - Address must contain at least 2 characters,N3NJS1809-138,10298,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,18/Jul/24 1:13 PM,18/Jul/24 1:34 PM,18/Jul/24 3:19 PM,18/Jul/24 1:34 PM,,0,CreateCustomer,"h1. T.. Address Verification - Address must contain at least 2 characters
+
+T.. Code is required
+Steps we’ll take…
+
+# Input 1 word in Address field (ex: A)
+# Input the rest field….
+# Click on Submit
+
+ *Success is….*✨
+
+An error message “Address must contain at least 2 characters” must be shown",,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,,,,,,,,,,N3NJS1809-44,,,,,,,,,,,,,,,,,,N3NJS1809-98,,,An error message “Address must contain at least 2 characters” must be shown,,,,,,{},,,,,,An error message “Address must contain at least 2 characters” must be shown,,,,,0|i001o7:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,e11a2516-80c3-4f0b-8283-ce0ed24438e6,N3_NJS1809,Unit,"1. Input 1 word in Address field (ex: A)
+
+2. Input the rest fields correctly
+
+3. Click on Submit",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1243706,,,Done,18/Jul/24 1:34 PM
+T  - Staff Name: Staff name is required,N3NJS1809-137,10297,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,18/Jul/24 1:13 PM,18/Jul/24 1:49 PM,18/Jul/24 3:19 PM,18/Jul/24 1:14 PM,,0,SaleManagement,"T  - Staff Name: Staff name is required
+
+
+* Steps we’ll take…
+1. Click “New Sale Bill” button
+2. Do not fill anything in Staff Name field
+3. Press Save Button
+
+Success is:
+A pop up: “Please select staff”",,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,,,,,,,,,,,,,,,,,,N3NJS1809-89,,,,,,,,,N3NJS1809-164,,,,,,,,,,18/Jul/24 1:13 PM;712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2;Screenshot (398).png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10188,,A pop up: “Please select staff”,,,,,,{},,,,,,A pop up: “Please select staff”,,,,,0|i001nz:,,,,,,,,,,,,,,,Unit,"1. Click “New Sale Bill” button
+2. Do not fill anything in Staff Name field
+3. Press Save Button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_58201,,,Done,18/Jul/24 1:14 PM
+T17 Warranty Time -  Warranty Time is required,N3NJS1809-136,10296,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 1:13 PM,18/Jul/24 1:17 PM,18/Jul/24 3:19 PM,,,0,ProductManagement,"T17 Warranty Time -  Warranty Time is required
+
+Steps we’ll take… 
+
+# Press “New Jewellery” button
+# Do not  fill the Warranty Time field
+# Press tab move to the next field 
+
+Success is….
+
+ An toast “Warranty Time is required ” must be shown",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-24,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-116,,,,,,,,,{},,,,,,An toast “Warranty Time is required ” must be shown,,,,,0|i001nr:,,,,,,,,,,,,,,,Unit,"Press “New Jewellery” button
+
+Do not  fill the Warranty Time field
+
+Press tab move to the next field",Skip,,,,,,,To Do,18/Jul/24 1:13 PM
+T.. Address Verification - Address is required,N3NJS1809-135,10295,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,18/Jul/24 1:11 PM,18/Jul/24 1:33 PM,18/Jul/24 1:12 PM,18/Jul/24 1:33 PM,,0,CreateCustomer,"h2. Description
+
+T.. Address is required
+Steps we’ll take…
+
+# Do not input any value in address field
+# Input the rest fields correctly
+# Click on Submit button
+
+ *Success is….*✨
+
+An error message “Address is required” must be shown",,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,,,,,,,,,,N3NJS1809-44,,,,,,,,,,,,,,,,,,N3NJS1809-98,,,An error message “Address is required” is shown,,,,,,{},,,,,,An error message “Address is required” is shown,,,,,0|i001nj:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,e11a2516-80c3-4f0b-8283-ce0ed24438e6,N3_NJS1809,Unit,"1. Do not input any value in address field
+2. Input the rest fields correctly
+3. Click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1323862,,,Done,18/Jul/24 1:33 PM
+T16 Labor - Labor is required,N3NJS1809-134,10294,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 1:11 PM,18/Jul/24 1:17 PM,18/Jul/24 3:19 PM,,,0,ProductManagement,"T16 Labor - Labor is required
+
+Steps we’ll take… 
+
+# Press “New Jewellery” button
+# Do not  fill the Labor field
+# Press tab move to the next field 
+
+Success is….
+
+ An toast “Labor is required ” must be shown",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-24,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-115,,,,,,,,,{},,,,,,An toast “Labor is required ” must be shown,,,,,0|i001nb:,,,,,,,,,,,,,,,Unit,"Press “New Jewellery” button
+
+Do not  fill the Labor field
+
+Press tab move to the next field",Skip,,,,,,,To Do,18/Jul/24 1:11 PM
+T  - Counter Name: Counter Name is required,N3NJS1809-133,10293,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,18/Jul/24 1:07 PM,18/Jul/24 1:42 PM,18/Jul/24 3:19 PM,18/Jul/24 1:07 PM,,0,SaleManagement,"* T  - Counter Name: Counter Name is required
+Steps we’ll take…
+1. Click “New Sale Bill” button
+2. Do not fill anything in Customer Name field
+3. Press Save Button
+
+Success is:
+A pop up: “Please select counter”",,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,,,,,,,,,,,,,,,,,,N3NJS1809-89,,,,,,,,,N3NJS1809-162,,,,,,,,,,18/Jul/24 1:08 PM;712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2;Screenshot (397).png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10185,,A pop up: “Please select counter”,,,,,,{},,,,,,A pop up: “Please select counter”,,,,,0|i001n3:,,,,,,,,,,,,,,,Unit,"1. Click “New Sale Bill” button
+2. Do not fill anything in Counter Name field
+3. Press Save Button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_7858,,,Done,18/Jul/24 1:07 PM
+T15 Jewellry Name - Jewelry Name is required,N3NJS1809-132,10292,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 1:06 PM,18/Jul/24 1:18 PM,18/Jul/24 3:19 PM,,,0,ProductManagement,"T06 Jewellry Name - Jewelry Name is required
+
+Steps we’ll take… 
+
+# Press “New Jewellery” button
+# Do not  fill the Jewellry Name field
+# Press tab move to the next field 
+
+Success is….
+
+ An toast “Jewellry Name is required ” must be shown",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-24,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-114,,,,,,,,,{},,,,,,An toast “Jewellry Name is required ” must be shown,,,,,0|i001mv:,,,,,,,,,,,,,,,Unit,"Press “New Jewellery” button
+
+Do not  fill the Jewellry Name field
+
+Press tab move to the next field",Skip,,,,,,,To Do,18/Jul/24 1:06 PM
+T26 Counter - Counter is required,N3NJS1809-131,10291,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,18/Jul/24 1:04 PM,18/Jul/24 1:05 PM,18/Jul/24 1:04 PM,18/Jul/24 1:05 PM,,0,StaffManagement,"T26 Counter - Counter is required
+Steps we’ll take…
+
+[1.Do|http://1.Do] not choose value in Counter field 
+ 2.Input the rest field : 
+
+Code : ZXC
+
+   Full name : Trương Minh Phước
+
+Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: myeyes@gmail.com
+
+# click on Submit button 
+
+
+*Success is….*✨ 
+
+An error message “Counter is required” must be shown",,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,N3NJS1809-22,,,,,,,,,,,,,,,,,,N3NJS1809-94,18/Jul/24 1:04 PM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_130408419.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10183,,An error message “Counter is required” must be shown,,,,,,{},,,,,,An error message “Counter is required” must be shown,,,,,0|i001mn:,,,,,,,,,,,,,,,Unit,"1.Do not choose value in Counter field 
+ 2.Input the rest field : 
+
+Code : ZXC
+
+   Full name : Trương Minh Phước
+
+Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: myeyes@gmail.com
+
+3. click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_111638,,,Done,18/Jul/24 1:05 PM
+T14 Jewellry Code - Jewelry Code is required,N3NJS1809-130,10290,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 1:03 PM,18/Jul/24 1:12 PM,18/Jul/24 3:19 PM,,,0,ProductManagement,"T05 Jewellry Code is required  
+
+Steps we’ll take… 
+
+# Press “New Jewellery” button
+# Do not  fill the Jewellry Code field
+# Press tab move to the next field 
+
+Success is….
+
+ An toast “Jewellry Code is required ” must be shown",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-24,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-113,18/Jul/24 1:03 PM;rk:e437ebd3-624a-4e45-9026-7bfe25bae05d;z5644746689029_2af5fdea447baa96263000dc7a3b31a8.jpg;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10182,,An toast “Jewellry Code is required ” is shown,,,,,,{},,,,,,An toast “Jewellry Code is required ” must be shown,,,,,0|i001mf:,,,,,,,,,,,,,,,Unit,"Press “New Jewellery” button
+
+Do not  fill the Jewellry Code field
+
+Press tab move to the next field",Skip,,,,,,,To Do,18/Jul/24 1:03 PM
+T.. Gender Verification - Gender is required,N3NJS1809-129,10289,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,18/Jul/24 1:02 PM,18/Jul/24 1:33 PM,18/Jul/24 3:19 PM,18/Jul/24 1:33 PM,,0,CreateCustomer,"h2. Description
+
+T.. Code is required
+Steps we’ll take…
+
+# Do not input any value in gender field
+# Input the rest fields correctly
+# Click on Submit button
+
+ *Success is….*✨
+
+An error message “Gender is required” must be shown",,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,,,,,,,,,,N3NJS1809-44,,,,,,,,,,,,,,,,,,N3NJS1809-98,,,An error message “Gender is required” is shown,,,,,,{},,,,,,An error message “Gender is required” is shown,,,,,0|i001m7:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,e11a2516-80c3-4f0b-8283-ce0ed24438e6,N3_NJS1809,Unit,"1. Do not input any value in code field
+
+2. Input the rest fields correctly
+
+3. Click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1876209,,,Done,18/Jul/24 1:33 PM
+T13 Barcode - Barcode is required,N3NJS1809-128,10288,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 1:00 PM,18/Jul/24 1:18 PM,18/Jul/24 1:00 PM,,,0,ProductManagement,"T04 Barcode is required  
+
+Steps we’ll take… 
+
+# Press “New Jewellery” button
+# Do not  fill the Barcode field
+# Press tab move to the next field 
+
+Success is….
+
+ An toast “Barcode is required ” must be shown",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-24,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-68,,,,,,,,,{},,,,,,An toast “Barcode is required ” must be shown,,,,,0|i001lz:,,,,,,,,,,,,,,,Unit,"Press “New Jewellery” button
+
+Do not  fill the Barcode field
+
+Press tab move to the next field",Skip,,,,,,,To Do,18/Jul/24 1:00 PM
+T31 Delete Staff - Deleted Successfully,N3NJS1809-126,10286,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,18/Jul/24 12:56 PM,18/Jul/24 3:15 PM,18/Jul/24 12:56 PM,18/Jul/24 1:00 PM,,0,StaffManagement,"T31 Delete Staff - Deleted Successfully
+Steps we’ll take…
+
+
+  1. Click on 3 dot toggle, choose delete
+
+# A modal show information staff, click on delete 
+
+
+*Success is….*✨ 
+
+An success message “Deleted successfully” must be shown",,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-86,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-125,18/Jul/24 12:59 PM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_125900365.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10180,,An success message “Delete successfully” must be shown,,,,,,{},,,,,,An success message “Delete successfully” must be shown,,,,,0|i001lr:,,,,,,,,,,,,,,,Unit,"T31 Delete Staff - Deleted Successfully
+Steps we’ll take…
+
+1.Then search “ZXC” on search staff 
+ 2. Click on 3 dot toggle, choose delete
+
+A modal show information staff, click on delete ",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_209969,,,Done,18/Jul/24 1:00 PM
+T30 Counter - Counter is required(role Staff),N3NJS1809-125,10285,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,18/Jul/24 12:51 PM,18/Jul/24 12:56 PM,18/Jul/24 12:51 PM,18/Jul/24 12:55 PM,,0,StaffManagement,"T30 Counter - Counter is required(role Staff)
+Steps we’ll take…
+
+1.Create a new staff 
+ 2.Input the rest field : 
+
+ Code : ZXC
+
+Full Name: Trương Minh Phước 
+
+  Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: [myeyes@gmail.com|mailto:myeyes@gmail.com]
+
+ counter: 312 
+
+# click on Submit button 
+# Then search “ZXC” on search staff 
+# Click on 3 dot toggle , choose edit
+# At Counter field, delete the data and click outside (in area of modal)
+# Click on Submit 
+
+
+*Success is….*✨ 
+
+An success message “Staff update successfully” must be shown",,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-85,,,,,,,,,,,,,,,,,,N3NJS1809-126,,,,,,,,,N3NJS1809-123,18/Jul/24 12:54 PM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_125418301.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10175,18/Jul/24 12:55 PM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_125513821.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10177,An success message “Staff update successfully” must be shown,,,,,,{},,,,,,An success message “Staff update successfully” must be shown,,,,,0|i001lj:,,,,,,,,,,,,,,,Unit,"1.Create a new staff 
+ 2.Input the rest field : 
+
+ Code : ZXC
+
+Full Name: Trương Minh Phước 
+
+  Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: myeyes@gmail.com
+
+ counter: 312 
+
+3.click on Submit button 
+
+4.Then search “ZXC” on search staff 
+
+5.Click on 3 dot toggle , choose edit
+
+6.At Counter field, delete the data and click outside (in area of modal)
+
+Click on Submit",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_288648,,,Done,18/Jul/24 12:55 PM
+T11 Jewellery Type - Jewellery Type must be selected,N3NJS1809-124,10284,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 12:50 PM,18/Jul/24 1:20 PM,18/Jul/24 3:19 PM,18/Jul/24 12:51 PM,,0,ProductManagement,"T11 Jewellery Type - Jewellery Type must be selected
+
+Steps we’ll take… 
+
+# Press “New Jewellery” button
+# Do not  selected the Jewellery Type field
+# Press Add 
+
+Success is….
+
+ An toast “Jewellery Type is required ” must be shown",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-20,,,,,,,,,,,,,,,,,,N3NJS1809-144,,,,,,,,,N3NJS1809-122,18/Jul/24 12:50 PM;rk:e437ebd3-624a-4e45-9026-7bfe25bae05d;z5644750763123_e9d705793c99a3cc29e3103eb2f975f0.jpg;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10173,,An toast “Jewellery Type is required” is shown,,,,,,{},,,,,,An toast “Jewellery Type is required ” must be shown,,,,,0|i001lb:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,Unit,"Press “New Jewellery” button
+
+Do not  selected the Jewellery Type field
+
+Press Add",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_51437,,,Done,18/Jul/24 12:51 PM
+T29 Phone Number - Phone Number must be numberic and at 9 digits,N3NJS1809-123,10283,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,18/Jul/24 12:47 PM,18/Jul/24 12:55 PM,18/Jul/24 12:47 PM,18/Jul/24 12:50 PM,,0,StaffManagement,"T29 Phone Number - Phone Number must be numberic and at 9 digits
+Steps we’ll take…
+
+1.Create a new staff 
+ 2.Input the rest field : 
+
+ Code : ZXC
+
+Full Name: Trương Minh Phước 
+
+  Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: [myeyes@gmail.com|mailto:myeyes@gmail.com]
+
+ counter: 312 
+
+# click on Submit button 
+# Then search “ZXC” on search staff 
+# Click on 3 dot toggle , choose edit
+# At Phone Number field, delete the data and blank it
+# Click on Submit 
+# At Phone Number field , write any words or phone number < 9 digits
+
+
+*Success is….*✨ 
+
+An error message “Phone Number must be numberic and at 9 digits” must be shown",,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-85,,,,,,,,,,,,,,,,,,N3NJS1809-125,,,,,,,,,N3NJS1809-118,18/Jul/24 12:50 PM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_125026127.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10174,18/Jul/24 12:55 PM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_125536924.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10178,An error message “Phone Number must be numberic and at 9 digits” must be shown,,,,,,{},,,,,,An error message “Phone Number must be numberic and at 9 digits” must be shown,,,,,0|i001l3:,,,,,,,,,,,,,,,Unit,"1.Create a new staff 
+ 2.Input the rest field : 
+
+ Code : ZXC
+
+Full Name: Trương Minh Phước 
+
+  Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: myeyes@gmail.com
+
+ counter: 312 
+
+3.click on Submit button 
+
+4.Then search “ZXC” on search staff 
+
+5.Click on 3 dot toggle , choose edit
+
+6.At Phone Number field, delete the data and blank it
+
+7.Click on Submit 
+
+8.At Phone Number field , write any words or phone number < 9 digits",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_210335,,,Done,18/Jul/24 12:50 PM
+T10 Gem Type - Gem Type must be selected,N3NJS1809-122,10282,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 12:46 PM,18/Jul/24 1:19 PM,18/Jul/24 3:19 PM,18/Jul/24 12:48 PM,,0,ProductManagement,"T10 Gem Type - Gem Type must be selected
+
+Steps we’ll take… 
+
+# Press “New Jewellery” button
+# Do not  selected the Gem Type field
+# Press Add 
+
+Success is….
+
+ An toast “Gem Type is required ” must be shown",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-20,,,,,,,,,,,,,,,,,,N3NJS1809-124,N3NJS1809-142,,,,,,,,N3NJS1809-119,18/Jul/24 12:48 PM;rk:e437ebd3-624a-4e45-9026-7bfe25bae05d;z5644750763123_e9d705793c99a3cc29e3103eb2f975f0.jpg;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10171,,An toast “Gem Type is required ” is shown,,,,,,{},,,,,,An toast “Gem Type is required ” must be shown,,,,,0|i001kv:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,Unit,"Press “New Jewellery” button
+
+Do not  selected the Gem Type field
+
+Press Add",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_73751,,,Done,18/Jul/24 12:48 PM
+T    CustomerName - Search bill with Customer Name,N3NJS1809-121,10281,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,18/Jul/24 12:45 PM,18/Jul/24 3:16 PM,18/Jul/24 3:19 PM,,,0,SaleManagement,"T   - CustomerName - Search bill with Customer Name
+
+
+* Steps we’ll take…
+1. Click “Search Bill” buttom
+2. Fill “Nguyen Van B” to search Customer Name
+
+Success is:
+Bill with Customer Name “Nguyen Van B” appear including data",,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,,,,,,,,,,,,,,,,,,N3NJS1809-112,,,,,,,,,N3NJS1809-178,,,,,,,,,,18/Jul/24 12:45 PM;712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2;Screenshot (396).png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10167,,"A notification: ""Not found
+
+No results found for  ""Nguyen Van B""
+Cannot find Bill with Customer Name",,,,,,{},,,,,,Bills with Customer Name “Nguyen Van B” appear including data,,,,,0|i001kn:,,,,,,,,,,,,,,,Unit,"1. Click “Search Bill” buttom
+2. Fill “Nguyen Van B” to search Customer Name",Skip,,,,,,,To Do,18/Jul/24 12:45 PM
+T09 Gold Type -  Gold Type must be selected,N3NJS1809-119,10279,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 12:41 PM,18/Jul/24 1:16 PM,18/Jul/24 3:19 PM,18/Jul/24 1:15 PM,,0,ProductManagement,"T09 Gold Type -  Gold Type must be selected
+
+Steps we’ll take… 
+
+# Press “New Jewellery” button
+# Do not  selected the Gold Type field
+# Press Add 
+
+Success is….
+
+ An toast “Gold Type is required ” must be shown",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-20,,,,,,,,,,,,,,,,,,N3NJS1809-122,N3NJS1809-140,,,,,,,,N3NJS1809-116,18/Jul/24 12:45 PM;rk:e437ebd3-624a-4e45-9026-7bfe25bae05d;z5644750763123_e9d705793c99a3cc29e3103eb2f975f0.jpg;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10168,,An toast “Gold Type is required ” is shown,,,,,,{},,,,,,An toast “Gold Type is required ” must be shown,,,,,0|i001k7:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,Unit,"Press “New Jewellery” button
+
+Do not  selected the Gold Type field
+
+Press Add",Pass,,,,10004_*:*_2_*:*_1891885_*|*_10003_*:*_2_*:*_131474,,,Done,18/Jul/24 1:15 PM
+T28 Full Name - Full Name must contain at least 2 words,N3NJS1809-118,10278,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,18/Jul/24 12:40 PM,18/Jul/24 12:47 PM,18/Jul/24 12:40 PM,18/Jul/24 12:46 PM,,0,StaffManagement,"T28 Full Name - Full Name must contain at least 2 words  
+Steps we’ll take…
+
+1.Create a new staff 
+ 2.Input the rest field : 
+
+ Code : ZXC
+
+Full Name: Trương Minh Phước 
+
+  Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: [myeyes@gmail.com|mailto:myeyes@gmail.com]
+
+ counter: 312 
+
+# click on Submit button 
+# Then search “ZXC” on search staff 
+# Click on 3 dot toggle , choose edit
+# At Full Name field, delete the data and blank it
+# Click on Submit 
+# At Full Name field , write any 1 words
+
+
+*Success is….*✨ 
+
+An error message “Full Name must contain at least 2 words” must be shown",,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-85,,,,,,,,,,,,,,,,,,N3NJS1809-123,,,,,,,,,N3NJS1809-91,18/Jul/24 12:46 PM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_124611184.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10169,18/Jul/24 12:46 PM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_124626951.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10170,An error message “Full Name must contain at least 2 words” must be shown,,,,,,{},,,,,,An error message “Full Name must contain at least 2 words” must be shown,,,,,0|i001jz:,,,,,,,,,,,,,,,Unit,"1.Create a new staff 
+ 2.Input the rest field : 
+
+ Code : ZXC
+
+Full Name: Trương Minh Phước 
+
+  Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: myeyes@gmail.com
+
+ counter: 312 
+
+click on Submit button 
+
+3.Then search “ZXC” on search staff 
+
+4.Click on 3 dot toggle , choose edit
+
+5.At Full Name field, delete the data and blank it
+
+6.Click on Submit 
+
+7.At Full Name field , write any 1 words",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_362585,,,Done,18/Jul/24 12:46 PM
+T   - BillId - Search bill with BillId,N3NJS1809-117,10277,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,18/Jul/24 12:39 PM,18/Jul/24 2:55 PM,18/Jul/24 12:39 PM,18/Jul/24 12:39 PM,,0,SaleManagement,"* T   - BillId - Search bill with BillId
+
+Steps we’ll take…
+1. Click “Search Bill” buttom
+2. Fill “2” to search BillId
+
+Success is:
+Bill with ID “2” appear including data",,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,,,,,,,,,,,,,,,,,,N3NJS1809-112,,,,,,,,,N3NJS1809-173,,,,,,,,,,18/Jul/24 12:39 PM;712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2;Screenshot (395).png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10164,,Bill with ID “2” appear including data,,,,,,{},,,,,,Bill with ID “2” appear including data,,,,,0|i001jr:,,,,,,,,,,,,,,,Unit,"1. Click “Search Bill” buttom
+2. Fill “2” to search BillId",,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_15722,,,Done,18/Jul/24 12:39 PM
+T08 Warranty Time -  Warranty Time is required,N3NJS1809-116,10276,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 12:38 PM,18/Jul/24 1:13 PM,18/Jul/24 3:19 PM,18/Jul/24 12:40 PM,,0,ProductManagement,"T08 Warranty Time -  Warranty Time is required
+
+Steps we’ll take… 
+
+# Press “New Jewellery” button
+# Do not  fill the Warranty Time field
+# Press tab move to the next field 
+
+Success is….
+
+ An toast “Warranty Time is required ” must be shown",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-20,,,,,,,,,,,,,,,,,,N3NJS1809-119,N3NJS1809-136,,,,,,,,N3NJS1809-115,18/Jul/24 12:40 PM;rk:e437ebd3-624a-4e45-9026-7bfe25bae05d;z5644750763180_58da76e94a08cd0160a7a8831f3938e1.jpg;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10165,,An toast “Warranty Time is required ” is shown,,,,,,{},,,,,,An toast “Warranty Time is required ” must be shown,,,,,0|i001jj:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,Unit,"Press “New Jewellery” button
+
+Do not  fill the Warranty Time field
+
+Press tab move to the next field",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_121893,,,Done,18/Jul/24 12:40 PM
+T07 Labor - Labor is required,N3NJS1809-115,10275,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 12:35 PM,18/Jul/24 1:11 PM,18/Jul/24 3:19 PM,18/Jul/24 12:37 PM,,0,ProductManagement,"T07 Labor - Labor is required
+
+Steps we’ll take… 
+
+# Press “New Jewellery” button
+# Do not  fill the Labor field
+# Press tab move to the next field 
+
+Success is….
+
+ An toast “Labor is required ” must be shown",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-20,,,,,,,,,,,,,,,,,,N3NJS1809-116,N3NJS1809-134,,,,,,,,N3NJS1809-114,18/Jul/24 12:37 PM;rk:e437ebd3-624a-4e45-9026-7bfe25bae05d;z5644750763143_e27aa06cd0ac914ddd3852a0d8673108.jpg;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10163,,An toast “Labor is required ” is shown,,,,,,{},,,,,,An toast “Labor is required ” must be shown,,,,,0|i001jb:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,Unit,"Press “New Jewellery” button
+
+Do not  fill the Labor field
+
+Press tab move to the next field",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_75636,,,Done,18/Jul/24 12:37 PM
+T06 Jewellry Name - Jewelry Name is required,N3NJS1809-114,10274,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 12:33 PM,18/Jul/24 1:06 PM,18/Jul/24 3:19 PM,18/Jul/24 12:34 PM,,0,ProductManagement,"T06 Jewellry Name - Jewelry Name is required
+
+Steps we’ll take… 
+
+# Press “New Jewellery” button
+# Do not  fill the Jewellry Name field
+# Press tab move to the next field 
+
+Success is….
+
+ An toast “Jewellry Name is required ” must be shown",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-20,,,,,,,,,,,,,,,,,,N3NJS1809-115,N3NJS1809-132,,,,,,,,N3NJS1809-68,18/Jul/24 12:34 PM;rk:e437ebd3-624a-4e45-9026-7bfe25bae05d;z5644750718409_103e4ba515a21b8c5ba839a0a39a0fa7.jpg;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10162,,An toast “Jewellry Name is required ” is shown,,,,,,{},,,,,,An toast “Jewellry Name is required ” must be shown,,,,,0|i001j3:,,,,,N3NJS180 Sprint 1,,,,,,,,,,Unit,"Press “New Jewellery” button
+
+Do not  fill the Jewellry Name field
+
+Press tab move to the next field",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_84611,,,Done,18/Jul/24 12:34 PM
+T05 Jewellry Code - Jewelry Code is required,N3NJS1809-113,10273,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,18/Jul/24 12:29 PM,18/Jul/24 1:03 PM,18/Jul/24 3:19 PM,18/Jul/24 12:32 PM,,0,ProductManagement,"T05 Jewellry Code is required  
+
+Steps we’ll take… 
+
+# Press “New Jewellery” button
+# Do not  fill the Jewellry Code field
+# Press tab move to the next field 
+
+Success is….
+
+ An toast “Jewellry Code is required ” must be shown",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-20,,,,,,,,,,,,,,,,,,N3NJS1809-130,,,,,,,,,N3NJS1809-68,18/Jul/24 12:32 PM;rk:e437ebd3-624a-4e45-9026-7bfe25bae05d;z5644746689029_2af5fdea447baa96263000dc7a3b31a8.jpg;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10161,,An toast “Jewellry Code is required ” is shown,,,,,,{},,,,,,An toast “Jewellry Code is required ” must be shown,,,,,0|i001iv:,,,,,N3NJS180 Sprint 1,,,,,,,,,,Unit,"Press “New Jewellery” button
+
+Do not  fill the Jewellry Code field
+
+Press tab move to the next field",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_129046,,,Done,18/Jul/24 12:32 PM
+UC17- Sale Management -Search Bill,N3NJS1809-112,10272,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,18/Jul/24 12:18 PM,18/Jul/24 3:13 PM,18/Jul/24 3:19 PM,,,0,,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,,,,,,,,,N3NJS1809-117,N3NJS1809-121,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-6,Sale Management,,,,,purple,,,0|i001e3:,,,,,NJS1809 Sprint 2,,,,,,,,,,,,,,,,,10166,Sale Management,To Do,18/Jul/24 12:18 PM
+T  - Payment - Payment Failed,N3NJS1809-111,10271,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,18/Jul/24 11:22 AM,18/Jul/24 1:02 PM,18/Jul/24 3:19 PM,18/Jul/24 11:24 AM,,0,SaleManagement,"* T  - Payment - Payment Failed
+
+Steps we’ll take…
+1.Click New Sale Bill button
+2.Fill all the fields to create a bill
+3. Click Save button
+4. Select the type of payment “Thẻ nội địa và ngân hàng”
+5. Select the bank “NCB”
+6. Fill all the field with these information:
+Ngân hàng: {{NCB}}
+Số thẻ: {{9704195798459170488}}
+Tên chủ thẻ:{{NGUYEN VAN A}}
+Ngày phát hành:{{07/15}}
+7. Press ‘'Tiếp tục” button and Click “Tôi đồng ý”
+
+Success is:
+A notification:” Tài khoản của quý khách không đủ số dư để thực hiện giao dịch này”",,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,,,,,,,,,,,,,,,,,,N3NJS1809-90,,,,,,,,,,,,,,,,,,,18/Jul/24 11:24 AM;712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2;Screenshot (389).png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10151,,A notification:” Tài khoản của quý khách không đủ số dư để thực hiện giao dịch này”,,,,,,{},,,,,,A notification:” Tài khoản của quý khách không đủ số dư để thực hiện giao dịch này”,,,,,0|i001if:,,,,,,,,,,,,,,,Unit,"Steps we’ll take…
+1.Click New Sale Bill button
+2.Fill all the fields to create a bill
+3. Click Save button
+4. Select the type of payment “Thẻ nội địa và ngân hàng”
+5. Select the bank “NCB”
+6. Fill all the field with these information:
+
+Ngân hàng: NCB
+
+Số thẻ: 9704195798459170488
+
+Tên chủ thẻ:NGUYEN VAN A
+
+Ngày phát hành:07/15
+7. Press ‘'Tiếp tục” button and Click “Tôi đồng ý”",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_131975,,,Done,18/Jul/24 11:24 AM
+T.. Promotion Discount Rate Verification - Promotion Discount Rate  is greater than 0 and less than 100,N3NJS1809-110,10270,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 11:11 AM,18/Jul/24 1:28 PM,18/Jul/24 3:19 PM,18/Jul/24 12:04 PM,,0,PromotionManagement,"T.. Promotion Discount Rate is greater than 0 and less than 100
+Steps we’ll take…
+
+1.Enter -10 in Discount Rate field
+ 2.Input the rest field correctly
+
+# click on Submit button 
+
+
+
+*Success is….*✨ 
+
+An error message “Discount rate must be a number greater than 0 and less than 100” must be shown",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-27,,,,,,,,,N3NJS1809-156,,,,,,,,,N3NJS1809-102,18/Jul/24 12:04 PM;rk:36857ca5-8748-41ca-9be9-6234f9cee3b9;Screenshot 2024-07-18 120312.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10159,,An error message “Discount rate must be a number greater than 0 and less than 100” is shown,,,,,,{},,,,,,An error message “Discount rate must be a number greater than 0 and less than 100” must be shown,,,,,0|i001i7:,,,,,NJS1809 Sprint 2,,,,,,,,,,Unit,"1.Enter -10 in Discount Rate field
+2.Input the rest field correctly
+3.click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_3209075,,,Done,18/Jul/24 12:04 PM
+T.. Promotion Discount Rate Verification - Promotion Discount Rate is required,N3NJS1809-109,10269,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 11:10 AM,18/Jul/24 1:27 PM,18/Jul/24 3:19 PM,18/Jul/24 12:01 PM,,0,PromotionManagement,"T.. Promotion Discount Rate is required
+Steps we’ll take…
+
+1.Do not input any value in Discount Rate field 
+ 2.Input the rest field correctly: 
+
+# click on Submit button 
+
+
+
+*Success is….*✨ 
+
+An error message “Discount Rate is required” must be shown",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-27,,,,,,,,,N3NJS1809-155,,,,,,,,,N3NJS1809-102,18/Jul/24 12:00 PM;rk:36857ca5-8748-41ca-9be9-6234f9cee3b9;Screenshot 2024-07-18 115915.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10158,,An error message “Discount Rate is required” is shown,,,,,,{},,,,,,An error message “Discount Rate is required” must be shown,,,,,0|i001hz:,,,,,NJS1809 Sprint 2,,,,,,,,,,Unit,,Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_3059007,,,Done,18/Jul/24 12:01 PM
+T.. Promotion End Date Verification - Promotion End Date must be after  Promotion Start Date,N3NJS1809-108,10268,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 11:09 AM,18/Jul/24 1:27 PM,18/Jul/24 3:19 PM,18/Jul/24 11:56 AM,,0,PromotionManagement,"T.. Promotion End Date must be after Promotion Start Date
+Steps we’ll take…
+
+1.Enter a date “7/20/2024” in Start Date field and “7/19/2024” in End Date field
+ 2.Input the rest field correctly: 
+
+# click on Submit button 
+
+
+
+*Success is….*✨ 
+
+An error toast message “End date cannot be after Start date” must be shown",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-27,,,,,,,,,N3NJS1809-154,,,,,,,,,N3NJS1809-102,18/Jul/24 11:55 AM;rk:36857ca5-8748-41ca-9be9-6234f9cee3b9;Screenshot 2024-07-18 115415.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10157,,An error toast message “End date cannot be after Start date” is shown,,,,,,{},,,,,,An error toast message “End date cannot be after Start date” must be shown,,,,,0|i001hr:,,,,,NJS1809 Sprint 2,,,,,,,,,,Unit,"1.Enter a date “7/20/2024” in Start Date field and “7/19/2024” in End Date field
+2.Input the rest field correctly:
+3. click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_2796453,,,Done,18/Jul/24 11:56 AM
+T.. Promotion End Date Verification - Promotion End Date must not be in the past,N3NJS1809-107,10267,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 11:07 AM,18/Jul/24 1:27 PM,18/Jul/24 3:19 PM,18/Jul/24 11:47 AM,,0,PromotionManagement,"T.. Promotion End Date must not be in the past
+Steps we’ll take…
+
+1.Enter a date “7/10/2024” in Start Date field and “7/12/2024” in End Date field which is before current date “7/18/2024
+ 2.Input the rest field correctly: 
+
+# click on Submit button 
+
+
+
+*Success is….*✨ 
+
+An error toast message “Start date and End date cannot be in the past” must be shown",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-27,,,,,,,,,N3NJS1809-152,,,,,,,,,N3NJS1809-102,18/Jul/24 11:46 AM;rk:36857ca5-8748-41ca-9be9-6234f9cee3b9;Screenshot 2024-07-18 114638.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10155,,An error toast message “Start date and End date cannot be in the past” is shown,,,,,,{},,,,,,An error toast message “Start date and End date cannot be in the past” must be shown,,,,,0|i001hj:,,,,,NJS1809 Sprint 2,,,,,,,,,,Unit,"1. Enter a date “7/10/2024” in Start Date field and “7/12/2024” in End Date field which is before current date “7/18/2024
+2. Input the rest field correctly: 
+3. click on Submit button ",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_2412664,,,Done,18/Jul/24 11:47 AM
+T  - Payment - Payment Successfully,N3NJS1809-106,10266,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,18/Jul/24 11:07 AM,18/Jul/24 1:01 PM,18/Jul/24 3:19 PM,,,0,SaleManagement,"* T  - Payment - Payment Successfully
+
+Steps we’ll take…
+1. Click New Sale Bill button
+2. Fill all the fields to create a bill
+3. Click Save button
+4. Select the type of payment “Thẻ nội địa và ngân hàng”
+5. Select the bank “NCB”
+6. Fill all the field with these information:
+       Ngân hàng: {{NCB}}
+       Số thẻ: {{9704198526191432198}}
+       Tên chủ thẻ:{{NGUYEN VAN A}}
+       Ngày phát hành:{{07/15}}
+7. Press ‘'Tiếp tục” button and Click “Tôi đồng ý”
+8. FIill ‘’{{123456}}'’ to OTP field and click “Thanh Toán” button
+
+Success is:
+A pop up with notification:”Payment successfully”
+  
+",,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,,,,,,,,,,,,,,,,,,N3NJS1809-90,,,,,,,,,,,,,,,,,,,18/Jul/24 11:10 AM;712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2;Screenshot (388).png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10150,,"There no pop up, back to http://localhost:3030/sale",,,,,,{},,,,,,A pop up with notification:”Payment successfully”,,,,,0|i001hb:,,,,,,,,,,,,,,,Unit,"1. Click New Sale Bill button
+2. Fill all the fields to create a bill
+3. Click Save button
+4. Select the type of payment “Thẻ nội địa và ngân hàng”
+5. Select the bank “NCB”
+6. Fill all the field with these information:       Ngân hàng: NCB
+
+       Số thẻ: 9704198526191432198
+
+       Tên chủ thẻ:NGUYEN VAN A
+
+       Ngày phát hành:07/15
+
+7. Press ‘'Tiếp tục” button and Click “Tôi đồng ý”
+8. FIill ‘’123456'’ to OTP field and click “Thanh Toán” button",Skip,,,,,,,To Do,18/Jul/24 11:07 AM
+T.. Promotion End Date Verification - Promotion End Date is required,N3NJS1809-105,10265,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 11:06 AM,18/Jul/24 1:27 PM,18/Jul/24 3:19 PM,18/Jul/24 11:50 AM,,0,PromotionManagement,"T.. Promotion End Date is required
+Steps we’ll take…
+
+1.Do not input any value in End Date field 
+ 2.Input the rest field correctly : 
+
+# click on Submit button 
+
+
+
+*Success is….*✨ 
+
+An error message “End date is required” must be shown",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-27,,,,,,,,,N3NJS1809-151,,,,,,,,,N3NJS1809-102,18/Jul/24 11:50 AM;rk:36857ca5-8748-41ca-9be9-6234f9cee3b9;Screenshot 2024-07-18 114904.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10156,,An error message “End date is required” is shown,,,,,,{},,,,,,An error message “End date is required” must be shown,,,,,0|i001h3:,,,,,NJS1809 Sprint 2,,,,,,,,,,Unit,"1.Do not input any value in End Date field 
+2.Input the rest field correctly : 
+3. click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_2670166,,,Done,18/Jul/24 11:50 AM
+T.. Promotion Start Date Verification - Promotion Start Date must not be in the past,N3NJS1809-104,10264,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 11:04 AM,18/Jul/24 1:27 PM,18/Jul/24 3:19 PM,18/Jul/24 11:44 AM,,0,PromotionManagement,"T.. Promotion Start Date must not be in the past
+Steps we’ll take…
+
+1.Enter a date “7/10/2024” in Start Date field which is before current date “7/18/2024
+ 2.Input the rest field correctly: 
+
+# click on Submit button 
+
+
+
+*Success is….*✨ 
+
+An error toast message “Start date and End date cannot be in the past” must be shown",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-27,,,,,,,,,N3NJS1809-150,,,,,,,,,N3NJS1809-102,18/Jul/24 11:43 AM;rk:36857ca5-8748-41ca-9be9-6234f9cee3b9;Screenshot 2024-07-18 114034.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10154,,An error toast message “Start date and End date cannot be in the past” is shown,,,,,,{},,,,,,An error toast message “Start date and End date cannot be in the past” must be shown,,,,,0|i001gv:,,,,,NJS1809 Sprint 2,,,,,,,,,,Unit,"1. Enter a date “7/10/2024” in Start Date field which is before current date “7/18/2024
+2. Input the rest field correctly: 
+3. click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_2359969,,,Done,18/Jul/24 11:44 AM
+T.. Promotion Start Date  Verification - Promotion Start Date is required,N3NJS1809-103,10263,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 11:03 AM,18/Jul/24 1:27 PM,18/Jul/24 3:19 PM,18/Jul/24 11:31 AM,,0,PromotionManagement,"T.. Promotion Start Date is required
+Steps we’ll take…
+
+1.Do not input any value in Promotion Start Date field 
+ 2.Input the rest field correctly : 
+
+# click on Submit button 
+
+
+
+*Success is….*✨ 
+
+An error message “Start date is required” must be shown",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-27,,,,,,,,,N3NJS1809-149,,,,,,,,,N3NJS1809-102,18/Jul/24 11:36 AM;rk:36857ca5-8748-41ca-9be9-6234f9cee3b9;Screenshot 2024-07-18 113604.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10152,,An error message “Start date is required” is shown,,,,,,{},,,,,,An error message “Start date is required” must be shown,,,,,0|i001gn:,,,,,NJS1809 Sprint 2,,,,,,,,,,Unit,"1. Do not input any value in Promotion Start Date field 
+2. Input the rest field correctly : 
+3. Click on Submit button ",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1720805,,,Done,18/Jul/24 11:31 AM
+T.. Promotion Description Verification - Promotion Description is required,N3NJS1809-102,10262,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,18/Jul/24 10:58 AM,18/Jul/24 1:26 PM,18/Jul/24 3:19 PM,18/Jul/24 11:25 AM,,0,PromotionManagement,"T.. Promotion Description is required
+Steps we’ll take…
+
+1.Do not input any value in Promotion field 
+2.Input the rest field correctly
+
+# Click on Submit button
+
+ 
+
+*Success is….*✨
+
+An error message “Description is required” must be shown",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-27,,,,,,,,,N3NJS1809-103,N3NJS1809-104,N3NJS1809-105,N3NJS1809-107,N3NJS1809-108,N3NJS1809-109,N3NJS1809-110,N3NJS1809-148,,,18/Jul/24 11:39 AM;rk:36857ca5-8748-41ca-9be9-6234f9cee3b9;Screenshot 2024-07-18 113803.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10153,,An error message “Description is required” is shown,,,,,,{},,,,,,An error message “Description is required” must be shown ,,,,,0|i001gf:,,,,,NJS1809 Sprint 2,,,,,,,,,,Unit,"1. Do not input any value in Promotion field 
+2. Input the rest field correctly
+3. Click on Submit button ",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1585594,,,Done,18/Jul/24 11:25 AM
+T  - Staff Name: Staff name must be retrieved from the database,N3NJS1809-101,10261,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,18/Jul/24 10:53 AM,18/Jul/24 1:40 PM,18/Jul/24 3:19 PM,18/Jul/24 10:54 AM,,0,,"* T  - Staff Name: Staff name must be retrieved from the database
+Steps we’ll take…
+1. Click New Sale Bill button
+2. At Staff Name field, there must have name of Staff that was created in database. Example: Chris Nguyen
+Success is:
+Display all the Staff name that was created in database",,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,,,,,,,,,,,,,,,,,,N3NJS1809-89,,,,,,,,,N3NJS1809-161,,,,,,,,,,18/Jul/24 10:55 AM;712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2;Screenshot (387).png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10149,,Display all the Staff name that was created in database,,,,,,{},,,,,,Display all the Staff name that was created in database,,,,,0|i001g7:,,,,,,,,,,,,,,,Unit,"Steps we’ll take…
+1. Click New Sale Bill button
+2. At Staff Name field, there must have name of Staff that was created in database. Example: Chris Nguyen",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_74202,,,Done,18/Jul/24 10:54 AM
+"T53  - Counter Name: Counter Name must be retrieved from the database.
+",N3NJS1809-100,10260,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,18/Jul/24 10:46 AM,18/Jul/24 1:55 PM,18/Jul/24 3:19 PM,18/Jul/24 10:50 AM,,0,SaleManagement,"* T53  - Counter Name: Counter Name must be retrieved from the database.|
+Steps we’ll take…
+1. Click New Sale Bill button
+2. At Counter Name field, there must have Name of Counter that was created in database. Example: 312, 231, 431
+
+Success is:
+Display all the counter name that was created in database",,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,,,,,,,,,,,,,,,,,,N3NJS1809-89,,,,,,,,,N3NJS1809-160,,,,,,,,,,18/Jul/24 10:45 AM;712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2;Screenshot (386).png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10148,,Display all the counter name that was created in database,,,,,,{},,,,,,Display all the counter name that was created in database,,,,,0|i001fz:,,,,,,,,,,,,,,,Unit,"Steps we’ll take…
+1. Click New Sale Bill button
+2. At Counter Name field, there must have Name of Counter that was created in database. Example: 312, 231, 431",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_250538,,,Done,18/Jul/24 10:50 AM
+T.. Gender Verification - Gender is required,N3NJS1809-99,10259,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,18/Jul/24 3:43 AM,18/Jul/24 6:42 AM,18/Jul/24 3:19 PM,18/Jul/24 3:43 AM,,0,CustomerInformationManagement,"T.. Gender is required
+Steps we’ll take…
+
+# Do not choose any option in gender field
+# Input the rest field:
+
+Code: SE183823
+
+Full name : My Anh
+
+Address: ABC
+
+Phone Number: 0123456789
+
+# Click on Submit button
+
+ *Success is….*✨
+
+An error message “Gender is required” must be shown.",,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,An error message “Gender is required” is shown,,,,,,{},,,,,,,,,,,0|i001fr:,,,,,N3NJS180 Sprint 1,,,,,,,,e11a2516-80c3-4f0b-8283-ce0ed24438e6,N3_NJS1809,Unit,"Do not choose any option in gender field
+
+Input the rest field:
+
+Code: SE183823
+
+Full name : My Anh
+
+Address: ABC
+
+Phone Number: 0123456789
+
+Click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_706,,,Done,18/Jul/24 3:43 AM
+T.. Code Verification - Code is required,N3NJS1809-98,10258,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,18/Jul/24 3:26 AM,18/Jul/24 1:47 PM,18/Jul/24 3:19 PM,18/Jul/24 1:33 PM,,0,CreateCustomer,"h2. Description
+
+T.. Code is required
+Steps we’ll take…
+
+# Do not input any value in code field
+# Input the rest fields correctly
+# Click on Submit button
+
+ *Success is….*✨
+
+An error message “Code is required” must be shown",,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,,,,,,,,,,N3NJS1809-44,,,,,,,,,N3NJS1809-129,N3NJS1809-135,N3NJS1809-138,N3NJS1809-143,N3NJS1809-145,N3NJS1809-146,N3NJS1809-153,N3NJS1809-159,N3NJS1809-163,,,,An error message “Code is required” is shown,,,,,,{},,,,,,An error message “Code is required” is shown,,,,,0|i001fj:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,e11a2516-80c3-4f0b-8283-ce0ed24438e6,N3_NJS1809,Unit,"1. Do not input any value in code field
+2. Input the rest fields correctly
+3. Click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_36450534,,,Done,18/Jul/24 1:33 PM
+T27 Submit - Email or Code already exist,N3NJS1809-96,10256,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,18/Jul/24 1:50 AM,18/Jul/24 1:06 PM,18/Jul/24 1:06 PM,18/Jul/24 2:17 AM,,0,StaffManagement,"T27 Submit - Email or Code already exist
+Steps we’ll take…
+ 1.Input the rest field : 
+
+Code : TMP
+
+   Full name : Trương Minh Phước
+
+Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: [myeyes@gmail.com|mailto:myeyes@gmail.com]
+
+ counter: 312 
+
+# click on Submit button 
+# Input the rest data, replace two value data:
+Code: ZXC
+Email: truongphuoc098@gmail.com
+# click on Submit button
+
+
+*Success is….*✨ 
+
+An error message “Email or Code already exist” must be shown",,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,N3NJS1809-22,,,,,,,,,,,,,,,,,,N3NJS1809-92,18/Jul/24 2:18 AM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_021756777.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10146,18/Jul/24 2:18 AM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_021824741.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10147,An error message “Email or Code already exist” must be shown,,,,,,{},,,,,,An error message “Email or Code already exist” must be shown,,,,,0|i001fb:,Code and Email are unique in database and cannot create new staff same as code/email that already have,,,,,,,,,,,,,,Unit,"1.Input the rest field : 
+
+Code : TMP
+
+   Full name : Trương Minh Phước
+
+Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: myeyes@gmail.com
+
+ counter: 312 
+
+2.click on Submit button 
+
+3. Input the rest data, replace two value data:
+Code: ZXC
+Email: truongphuoc098@gmail.com
+
+4. click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1662048,,,Done,18/Jul/24 2:17 AM
+T.. Counter - Counter is required,N3NJS1809-95,10255,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,18/Jul/24 1:49 AM,18/Jul/24 2:11 AM,18/Jul/24 2:11 AM,18/Jul/24 2:11 AM,,0,StaffManagement,"T.. Counter - Counter is required
+Steps we’ll take…
+
+1.Do not input any value Counter field 
+ 2.Input the rest field : 
+
+Code : ZXC
+
+   Full name : Trương Minh Phước
+
+Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: [myeyes@gmail.com|mailto:myeyes@gmail.com]
+
+# click on Submit button 
+
+
+*Success is….*✨ 
+
+An error message “Counter is required” must be shown",,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-92,18/Jul/24 2:10 AM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_021012407.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10145,,An error message “Counter is required” must be shown,,,,,,{},,,,,,An error message “Counter is required” must be shown,,,,,0|i001f3:,,,,,,,,,,,,,,,Unit,"1.Do not input any value Counter field 
+ 2.Input the rest field : 
+
+Code : ZXC
+
+   Full name : Trương Minh Phước
+
+Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: myeyes@gmail.com
+
+3. click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1291208,,,Done,18/Jul/24 2:11 AM
+T25 Email - Email must be valid,N3NJS1809-94,10254,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,18/Jul/24 1:49 AM,18/Jul/24 1:04 PM,18/Jul/24 1:03 PM,18/Jul/24 2:08 AM,,0,StaffManagement,"T25 Email - Email must be valid
+Steps we’ll take…
+
+1.Input a website domain in Email field 
+ 2.Input the rest field : 
+
+Code : ZXC
+
+   Full name : Trương Minh Phước
+
+Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: facebook.com
+
+ counter: 312 
+
+# click on Submit button 
+
+
+*Success is….*✨ 
+
+An error message “Email must be valid” must be shown",,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,N3NJS1809-22,,,,,,,,,N3NJS1809-131,,,,,,,,,N3NJS1809-92,18/Jul/24 2:07 AM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_020750688.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10144,,An error message “Email must be valid” must be shown,,,,,,{},,,,,,An error message “Email must be valid” must be shown,,,,,0|i001ev:,,,,,,,,,,,,,,,Unit,"1.Input a website domain in Email field 
+ 2.Input the rest field : 
+
+Code : ZXC
+
+   Full name : Trương Minh Phước
+
+Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: facebook.com
+
+ counter: 312 
+
+3.click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1121125,,,Done,18/Jul/24 2:08 AM
+"T24 Phone Number - Phone Number must be numberic and at 9 digits
+",N3NJS1809-93,10253,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,18/Jul/24 1:49 AM,18/Jul/24 1:02 PM,18/Jul/24 1:02 PM,18/Jul/24 2:04 AM,,0,StaffManagement,"T24 Phone Number - Phone Number must be numberic and at 9 digits
+Steps we’ll take…
+
+1.Input any value PhoneNumber field that lower than 8 number or character.
+ 2.Input the rest field : 
+
+Code : ZXC
+
+   Full name : Trương Minh Phước
+
+Password: 1234
+
+  phoneNumber: abcdxz || 123456
+
+ email: [myeyes@gmail.com|mailto:myeyes@gmail.com]
+
+ counter: 312 
+
+# click on Submit button 
+
+
+*Success is….*✨ 
+
+An error message “Phone Number must be numberic and at 9 digits” must be shown",,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,N3NJS1809-22,,,,,,,,,,,,,,,,,,N3NJS1809-92,18/Jul/24 2:03 AM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_020346361.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10142,18/Jul/24 2:04 AM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_020407318.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10143,An error message “Phone Number must be numberic and at 9 digits” must be shown,,,,,,{},,,,,,An error message “Phone Number must be numberic and at 9 digits” must be shown,,,,,0|i001en:,,,,,,,,,,,,,,,Unit,"1.Input any value PhoneNumber field that lower than 8 number or character.
+ 2.Input the rest field : 
+
+Code : ZXC
+
+   Full name : Trương Minh Phước
+
+Password: 1234
+
+  phoneNumber: abcdxz || 123456
+
+ email: myeyes@gmail.com
+
+ counter: 312 
+
+3. click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_909162,,,Done,18/Jul/24 2:04 AM
+T23 Password - Password is required,N3NJS1809-92,10252,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,18/Jul/24 1:21 AM,18/Jul/24 1:02 PM,18/Jul/24 1:02 PM,18/Jul/24 1:53 AM,,0,StaffManagement,"T23 Password - Password is required
+Steps we’ll take…
+
+1.Do not input any value Password field 
+ 2.Input the rest field : 
+
+Code : ZXC
+
+   Full name : Trương Minh Phước
+
+  phoneNumber: 0987654321 
+
+ email: [myeyes@gmail.com|mailto:myeyes@gmail.com]
+
+ counter: 312 
+
+# click on Submit button 
+
+
+*Success is….*✨ 
+
+An error message “Password is required” must be shown",,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,N3NJS1809-22,,,,,,,,,N3NJS1809-93,N3NJS1809-94,N3NJS1809-95,N3NJS1809-96,,,,,,N3NJS1809-59,18/Jul/24 1:47 AM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_014715833.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10140,,An error message “Password is required” must be shown,,,,,,{},,,,,,An error message “Password is required” must be shown,,,,,0|i001ef:,,,,,,,,,,,,,,,Unit,"1.Do not input any value Password field 
+ 2.Input the rest field : 
+
+Code : ZXC
+
+   Full name : Trương Minh Phước
+
+  phoneNumber: 0987654321 
+
+ email: myeyes@gmail.com
+
+ counter: 312 
+
+click on Submit button",Pass,,,,10004_*:*_2_*:*_25370_*|*_10003_*:*_2_*:*_1914937,,,Done,18/Jul/24 1:53 AM
+T22 Full Name - Full Name must contain at least 2 words,N3NJS1809-91,10251,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,18/Jul/24 1:20 AM,18/Jul/24 1:01 PM,18/Jul/24 1:01 PM,18/Jul/24 1:42 AM,,0,StaffManagement,"T22 Full Name - Full Name must contain at least 2 words
+Steps we’ll take…
+
+1.Do not input any value Full Name field 
+ 2.Input the rest field : 
+
+ Code : ZXC
+
+  Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: [myeyes@gmail.com|mailto:myeyes@gmail.com]
+
+ counter: 312 
+
+# click on Submit button 
+# Input any 1 word in Full Name field (ex: Truong)
+# Input the rest field….
+# Click on Submit 
+
+
+*Success is….*✨ 
+
+An error message “Full Name must contain at least 2 words” must be shown",,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,N3NJS1809-22,,,,,,,,,N3NJS1809-118,,,,,,,,,N3NJS1809-59,18/Jul/24 1:26 AM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_012606408.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10138,18/Jul/24 1:27 AM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_012727436.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10139,An error message “Full Name must contain at least 2 words” must be shown,,,,,,{},,,,,,An error message “Full Name must contain at least 2 words” must be shown,,,,,0|i001e7:,,,,,,,,,,,,,,,Unit,"1.Do not input any value Full Name field 
+ 2.Input the rest field : 
+
+ Code : ZXC
+
+  Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: myeyes@gmail.com
+
+ counter: 312 
+
+3.click on Submit button 
+
+4.Input any 1 word in Full Name field (ex: Truong)
+
+5.Input the rest field….
+
+6.Click on Submit",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1321894,,,Done,18/Jul/24 1:42 AM
+UC16 - Sale Management - Pay bill,N3NJS1809-90,10250,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,18/Jul/24 12:48 AM,18/Jul/24 3:13 PM,18/Jul/24 3:19 PM,,,0,,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,,,,,,,,,N3NJS1809-106,N3NJS1809-111,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-6,Sale Management,,,,,purple,,,0|i001dz:,,,,,NJS1809 Sprint 2,,,,,,,,,,,,,,,,,10166,Sale Management,To Do,18/Jul/24 12:48 AM
+UC15 - Sale Management - Create Sale bill,N3NJS1809-89,10249,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,18/Jul/24 12:48 AM,18/Jul/24 3:13 PM,18/Jul/24 3:19 PM,,,0,,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,,,,,,,,,N3NJS1809-100,N3NJS1809-101,N3NJS1809-133,N3NJS1809-137,N3NJS1809-141,N3NJS1809-147,N3NJS1809-157,N3NJS1809-165,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-6,Sale Management,,,,,purple,,,0|i001dr:,,,,,NJS1809 Sprint 2,,,,,,,,,,,,,,,,,10166,Sale Management,To Do,18/Jul/24 1:52 PM
+T3 Login - Email/Password is incorrect,N3NJS1809-88,10248,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,18/Jul/24 12:41 AM,18/Jul/24 12:55 AM,18/Jul/24 12:49 AM,18/Jul/24 12:55 AM,,0,UserAuthentication,"T3 Email/Password field must be inputed  
+
+
+Steps we’ll take…
+
+ 
+1. Enter a valid email (myeyes@gmail.com) in email field
+
+# Enter any character in password field 
+# Click on Login button 
+# Enter a invalid email ([facebook.com|http://facebook.com]) in email field
+# Enter any character in password field 
+# Click on Login 
+
+
+Success is 
+
+Display a notification “Email/Password is incorrect“",,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-17,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-63,18/Jul/24 12:41 AM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_004022173.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10134,18/Jul/24 12:55 AM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_005458391.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10136,Display a notification “Email/Password is incorrect“,,,,,,{},,,,,,Display a notification “Email/Password is incorrect“,,,,,0|i001dj:,"1. first data input is not in database
+2. second data input email is not type of email ",,,,,,,,,,,,,,Unit,"1.Enter a valid email (myeyes@gmail.com) in email field
+
+2.Enter any character in password field 
+
+3.Click on Login button 
+
+4.Enter a invalid email (facebook.com) in email field
+
+5.Enter any character in password field 
+
+6.Click on Login",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_842196,,,Done,18/Jul/24 12:55 AM
+T2 Password Verification - Password is required,N3NJS1809-87,10247,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,18/Jul/24 12:40 AM,18/Jul/24 12:48 AM,18/Jul/24 12:45 AM,18/Jul/24 12:48 AM,,0,UserAuthentication,"T02 Email field must be inputed  
+
+
+Steps we’ll take…
+
+ 
+1. Enter a valid email (myeyes@gmail.com) in email field
+
+# Click on Login button 
+
+
+Success is 
+
+Display a notification “Password is required“",,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-17,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-63,18/Jul/24 12:48 AM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_004835615.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10135,,Display a notification “Password is required“,,,,,,{},,,,,,Display a notification “Password is required“,,,,,0|i001db:,,,,,,,,,,,,,,,Unit,"1. Enter a valid email (myeyes@gmail.com) in email field
+
+2.Click on Login button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_473428,,,Done,18/Jul/24 12:48 AM
+UC07 -Staff Management- Delete Staff,N3NJS1809-86,10246,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,17/Jul/24 9:59 PM,18/Jul/24 3:14 PM,18/Jul/24 3:14 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,N3NJS1809-126,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-3,Staff Management,,,,,purple,,,0|i0010x:,,,,,NJS1809 Sprint 2,,,,,,,,,,,,,,,,,10163,Staff Management,To Do,17/Jul/24 9:59 PM
+UC06 - Staff Management- Manager update staff,N3NJS1809-85,10245,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,17/Jul/24 9:59 PM,18/Jul/24 3:14 PM,18/Jul/24 3:15 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,N3NJS1809-118,N3NJS1809-123,N3NJS1809-125,,,,,,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-3,Staff Management,,,,,purple,,,0|i0010r:,,,,,NJS1809 Sprint 2,,,,,,,,,,,,,,,,,10163,Staff Management,To Do,17/Jul/24 9:59 PM
+CIM04 - Customer Infor Management - Delete Customer Infor,N3NJS1809-84,10244,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,21/Jun/24 4:34 PM,21/Jun/24 4:36 PM,18/Jul/24 3:19 PM,,,0,CustomerInformationManagement,"T04 Delete Customers
+
+Steps we’ll take… 
+
+# Click (icon three dots) on the row that display customer 
+# Click “Delete”
+#  Click “Delete” button in confirm modal 
+
+Success is…. 
+
+A toast  “Delete successful” must be shown and customer in row  must be deleted",,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,,,,,,,,,,N3NJS1809-50,,,,,,,,,,,,,,,,,,N3NJS1809-83,,,,,,,,,{},,,,,,A toast  “Delete successful” must be shown and customer in row  must be deleted,,,,,0|i001cn:,,,,,,,,,,,,,e11a2516-80c3-4f0b-8283-ce0ed24438e6,N3_NJS1809,Unit,"Click (icon three dots) on the row that display customer 
+
+Click “Delete”
+
+ Click “Delete” button in confirm modal",Skip,,,,,,,To Do,21/Jun/24 4:34 PM
+CIM03 - Customer Infor Management - Update Customer Infor,N3NJS1809-83,10243,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,21/Jun/24 4:27 PM,21/Jun/24 4:34 PM,18/Jul/24 3:19 PM,,,0,,"T03 Update Customer
+
+Steps we’ll take…
+
+# Click (icon three dots) on the row that display customer
+# Click “Edit”
+# Fill all field in update modal
+# Click“ Update” button in confirm modal to confirm
+
+Success is….
+
+A toast “Update successful” must be shown and customer info in row must be changed",,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,,,,,,,,,,N3NJS1809-49,,,,,,,,,N3NJS1809-84,,,,,,,,,N3NJS1809-74,,,,,,,,,{},,,,,,A toast “Update successful” must be shown and customer info in row must be changed,,,,,0|i001cf:,,,,,,,,,,,,,e11a2516-80c3-4f0b-8283-ce0ed24438e6,N3_NJS1809,Unit,"Click (icon three dots) on the row that display customer
+
+Click “Edit”
+
+Fill all field in update modal
+
+Click“ Update” button in confirm modal to confirm",Skip,,,,,,,To Do,21/Jun/24 4:27 PM
+PM05 - Promotion Management - Apply Promotion,N3NJS1809-82,10242,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,21/Jun/24 4:22 PM,18/Jul/24 12:35 PM,18/Jul/24 3:19 PM,,,0,PromotionManagement,"T05 Apply Promotion
+
+Steps we’ll take… 
+
+# Go to Bill page 
+# Click “New Bill” 
+#  Select Promotion to current bill
+
+Success is…. 
+
+The promotion field displayed description, discount percentage and total had been subtracted",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,"The promotion field displayed description, discount percentage and total had been subtracted",,,,,0|i001c7:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,Unit,"Go to Bill page 
+
+Click “New Bill” 
+
+ Select Promotion to current bill",Skip,,,,,,,To Do,21/Jun/24 4:22 PM
+PM04 - Promotion Management - Delete Promotion,N3NJS1809-81,10241,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,21/Jun/24 4:21 PM,18/Jul/24 1:15 PM,18/Jul/24 3:19 PM,,,0,PromotionManagement,"T05 Delete Promotion
+
+Steps we’ll take… 
+
+# Click (icon three dots) on the row that display product 
+# Click “Delete”
+#  Click “Delete” button in confirm modal 
+
+Success is…. 
+
+A toast  “Delete successful” must be shown and product in row  must be deleted",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,A toast  “Delete successful” must be shown and product in row  must be deleted,,,,,0|i001bz:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,Unit,"Click (icon three dots) on the row that display product 
+
+Click “Delete”
+
+ Click “Delete” button in confirm modal",Skip,,,,,,,To Do,21/Jun/24 4:21 PM
+PM04 - ,N3NJS1809-80,10240,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,21/Jun/24 4:20 PM,21/Jun/24 4:21 PM,18/Jul/24 3:19 PM,,,0,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,0|i001br:,,,,,,,,,,,,,,,,,,,,,,,,To Do,21/Jun/24 4:20 PM
+PM03 - Promotion Management - Update,N3NJS1809-79,10239,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,21/Jun/24 4:20 PM,18/Jul/24 1:28 PM,18/Jul/24 3:19 PM,,,0,PromotionManagement,"T01 Update Promotion Infomation
+
+Steps we’ll take…
+
+Click icon three dots  and click “Edit” 
+
+Enter all field required in displayed modal
+
+Click “Update” button in modal
+
+Success is…. 
+
+A toast  “Update successful” must be shown and product info in row  must be changed",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,A toast  “Update successful” must be shown and product info in row  must be changed,,,,,0|i001bj:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,Unit,"Click icon three dots  and click “Edit” 
+
+Enter all field required in displayed modal
+
+Click “Update” button in modal",Skip,,,,,,,To Do,21/Jun/24 4:20 PM
+PM02 - Promotion Management - Read,N3NJS1809-78,10238,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,21/Jun/24 4:19 PM,18/Jul/24 12:35 PM,18/Jul/24 3:19 PM,,,0,PromotionManagement,"T01 Read  Promotion Infomation
+
+Steps we’ll take…
+
+Click “More Info” on table row of promotion
+
+Success is…. 
+
+A modal must be displayed and promotion info must be displayed in modal",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,A modal must be displayed and promotion info must be displayed in modal,,,,,0|i001bb:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,Unit,1.Click “More Info” on table row of promotion,Skip,,,,,,,To Do,21/Jun/24 4:19 PM
+CIM02 -  Customer Infor Management - Read Customer Infor,N3NJS1809-77,10237,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,21/Jun/24 4:17 PM,21/Jun/24 4:25 PM,18/Jul/24 3:19 PM,,,0,CustomerInformationManagement,"Read Customer Information
+
+Steps we’ll take…
+
+# Press “More Info” button on the row of a customer
+
+Success is….
+A modal must be shown and customer info must be displayed in modal.",,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,,,,,,,,,,,,,,,,,,N3NJS1809-48,,,,,,,,,,,,,,,,,,N3NJS1809-74,,,,,,,,,{},,,,,,A modal must be shown and customer info must be displayed in modal.,,,,,0|i001b3:,,,,,,,,,,,,,e11a2516-80c3-4f0b-8283-ce0ed24438e6,N3_NJS1809,Unit,"Press “New Customer” button
+
+Fill Name, Address, Phone Number, Point, Gender
+
+Press “Submit” button",Skip,,,,,,,To Do,21/Jun/24 4:17 PM
+CIM01 - Customer Infor Management - Create New Customer,N3NJS1809-74,10234,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,21/Jun/24 4:09 PM,18/Jul/24 12:35 PM,18/Jul/24 3:19 PM,,,0,,"Create Customer Information
+
+Steps we’ll take…
+
+# Press “New Customer” button
+# Fill Name, Address, Phone Number, Point, Gender
+# Press “Submit” button
+
+Success is….
+A toast “New Customer added successfully” must be shown and customer must be displayed in table row.",,,,,,,,,,,,,,,,,,,,,N3NJS1809-47,,,,,,,,,N3NJS1809-77,N3NJS1809-83,,,,,,,,,,,,,,,,,{},,,,,,A toast “New Customer added successfully” must be shown and customer must be displayed in table row.,,,,,0|i001af:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,e11a2516-80c3-4f0b-8283-ce0ed24438e6,N3_NJS1809,Unit,"Press “New Customer” button
+
+Fill Name, Address, Phone Number, Point, Gender
+
+Press “Submit” button",Pass,,,,,,,To Do,21/Jun/24 4:09 PM
+PM01 - Promotion Management - Create new,N3NJS1809-71,10231,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,21/Jun/24 3:54 PM,18/Jul/24 12:35 PM,18/Jul/24 3:19 PM,,,0,PromotionManagement,"T01 Create new promotion
+
+Steps we’ll take…
+
+Click “New Promotion” to create new
+
+Enter all field required
+
+Click “Submit” button 
+
+Success is…. 
+
+A toast “Add successfully” must be displayed and the created promotion show up on the table ",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,A toast “Add successfully” must be displayed and the created promotion show up on the table,,,,,0|i0019z:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,Unit,"Click “New Promotion” to create new
+
+Enter all field required
+
+Click “Submit” button",Skip,,,,,,,To Do,21/Jun/24 3:54 PM
+PM01 - View available products,N3NJS1809-70,10230,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,21/Jun/24 2:03 AM,18/Jul/24 12:35 PM,17/Jul/24 9:54 PM,,,0,,"Steps we’ll take…
+
+# Choose “Jewellry” option
+
+Success is….
+All the products successfully displayed on screen",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,All the products successfully displayed on screen,,,,,0|i0019r:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,Unit,Choose “Jewellry” option,Pass,,,,,,,To Do,21/Jun/24 2:03 AM
+"T04 Barcode - Barcode is required
+",N3NJS1809-68,10228,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,21/Jun/24 1:47 AM,18/Jul/24 1:00 PM,18/Jul/24 3:19 PM,,,0,ProductManagement,"T04 Barcode is required  
+
+Steps we’ll take… 
+
+# Press “New Jewellery” button
+# Do not  fill the Barcode field
+# Press tab move to the next field 
+
+Success is….
+
+ An toast “Barcode is required ” must be shown",,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,,,,,,,,,N3NJS1809-20,,,,,,,,,,,,,,,,,,N3NJS1809-113,N3NJS1809-114,N3NJS1809-128,,,,,,,,18/Jul/24 12:25 PM;rk:e437ebd3-624a-4e45-9026-7bfe25bae05d;z5644746689029_2af5fdea447baa96263000dc7a3b31a8.jpg;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10160,,,,,,,,{},,,,,,An toast “Barcode is required ” must be shown,,,,,0|i0019f:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,Unit,"Press “New Jewellery” button
+
+Do not  fill the Barcode field
+
+Press tab move to the next field",Skip,,,,,,,To Do,21/Jun/24 1:47 AM
+PM04 - Product Management - Update Products,N3NJS1809-67,10227,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,21/Jun/24 1:47 AM,18/Jul/24 1:02 PM,18/Jul/24 3:19 PM,,,0,ProductManagement,"T06 Update Products
+
+Steps we’ll take… 
+
+# Click (icon three dots) on the row that display product 
+# Click “Edit”
+#  Fill all field in update modal with correct validation 
+#  Click“ Edit” button in confirm modal to confirm
+
+Success is…. 
+
+A toast  “Update successful” must be shown and product info in row  must be changed",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,N3NJS1809-66,,,,,,,,,{},,,,,,A toast  “Update successful” must be shown and product info in row  must be updated,,,,,0|i0019j:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,,"1. Click (icon three dots) on the row that display product 
+2. Click “Edit”
+3.  Fill all field in update modal with correct validation 
+4. Click“ Edit” button in confirm modal ",,,,,,,,To Do,21/Jun/24 1:47 AM
+"T12 Delete Jewellry - Deleted Successfully
+",N3NJS1809-66,10226,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,21/Jun/24 1:30 AM,18/Jul/24 12:54 PM,18/Jul/24 3:19 PM,,,0,ProductManagement,"T12 Delete Jewellry - Deleted Successfully
+
+Steps we’ll take… 
+
+# Tick the jewllery box you want 
+# Click Trash can icon 
+
+Success is…. 
+
+A toast  “Delete successful” must be shown ",,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,,,,,,,,,,,,,,,,,,N3NJS1809-23,,,,,,,,,N3NJS1809-67,,,,,,,,,,,,,,,,,,{},,,,,,A toast  “Delete successful” must be shown,,,,,0|i0019b:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,,"Tick the jewllery box you want 
+
+Click Trash can icon",Skip,,,,,,,To Do,21/Jun/24 1:30 AM
+TC02 - User Authentication - Logout,N3NJS1809-65,10225,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,21/Jun/24 1:29 AM,18/Jul/24 12:35 PM,10/Jul/24 1:43 PM,,,0,UserAuthentication,"T02 Logout  
+
+
+
+Steps we’ll take…
+
+ 
+Click the Logout button
+
+Success is…. 
+
+
+
+Get sent to the Login page",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,Get sent to the Login page,,,,,0|i00193:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,,1. Click the Logout button,Skip,,,,,,,To Do,21/Jun/24 1:29 AM
+SM01- Assign staff to counter,N3NJS1809-64,10224,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,21/Jun/24 1:27 AM,21/Jun/24 1:27 AM,18/Jul/24 3:19 PM,,,0,StaffManagement,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,,,,0|i0018v:,,,,,,,,,,,,,,,,,,,,,,,,To Do,21/Jun/24 1:27 AM
+T1 Email Verifcation - Email is required,N3NJS1809-63,10223,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,21/Jun/24 1:27 AM,18/Jul/24 12:45 AM,18/Jul/24 2:00 PM,18/Jul/24 12:40 AM,,0,UserAuthentication,"T01 Password field must be inputed  
+
+
+Steps we’ll take…
+
+ 
+1. Enter any character in password field
+
+# Click on Login button 
+
+
+Success is 
+
+Display a notification “Email is required“",,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,,,,,,,,,,N3NJS1809-17,,,,,,,,,N3NJS1809-87,N3NJS1809-88,,,,,,,,,18/Jul/24 12:40 AM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_004022173.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10132,,Display a notification “Email is required“,,,,,,{},,,,,,Display a notification “Email is required“,,,,,0|i0018n:,,,,,N3NJS180 Sprint 1,,,,,,,,,,Unit,"1.Enter any character in password field
+
+2.Click on Login button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_2329986352,,,Done,18/Jul/24 12:40 AM
+UC 08 - Counter Management - Edit Counter,N3NJS1809-62,10222,Testcase,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,21/Jun/24 1:23 AM,18/Jul/24 2:59 PM,18/Jul/24 3:19 PM,,,0,CounterManagement,"h1. *Counter Management - Edit Counter*
+
+*Steps we’ll take…*
+
+# Click Counter button
+# Click on 3 dot toggle , choose edit
+# Clear Counter field
+# Click on Submit button
+
+*Success is….*✨
+
+An error message “Counter Name is required” must be shown",,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,N3NJS1809-26,,,,,,,,,,,,,,,,,,,,,An error message “Counter Name is required” must be shown,,,,,,{},,,,,,An error message “Counter Name is required” must be shown,,,,,0|i0018f:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,,"Click Counter button
+
+Click on 3 dot toggle , choose edit
+
+Clear Counter field
+
+Click on Submit button",,,,,,,,To Do,21/Jun/24 1:23 AM
+"T21 Code Verification - Code is required
+",N3NJS1809-59,10219,Testcase,Done,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,Done,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,21/Jun/24 1:14 AM,18/Jul/24 1:01 PM,18/Jul/24 1:01 PM,18/Jul/24 1:19 AM,,0,StaffManagement,"T21 Code Verification - Code is required
+
+
+Steps we’ll take…
+
+1.Do not input any value code field 
+ 2.Input the rest field : 
+
+   Full name : Trương Minh Phước
+
+  Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: [myeyes@gmail.com|mailto:myeyes@gmail.com]
+
+ counter: 312 
+
+# click on Submit button 
+
+
+*Success is….*✨ 
+
+An error message “Code is required” must be shown",,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,N3NJS1809-22,,,,,,,,,N3NJS1809-91,N3NJS1809-92,,,,,,,,,18/Jul/24 1:19 AM;712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5;hình ảnh_2024-07-18_011954273.png;https://fpt-team-kweek2z8.atlassian.net/rest/api/3/attachment/content/10137,,An error message “Code is required” must be shown,,,,,,{},,,,,,An error message “Code is required” must be shown,,,,,0|i00117:,,,,,N3NJS180 Sprint 1,,,,,,,,,,Unit,"1.Do not input any value code field 
+ 2.Input the rest field : 
+
+   Full name : Trương Minh Phước
+
+  Password: 1234
+
+  phoneNumber: 0987654321 
+
+ email: myeyes@gmail.com
+
+ counter: 312 
+
+3.click on Submit button",Pass,,,,10004_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_2333100658,,,Done,18/Jul/24 1:19 AM
+UC38 - Payment Processing - Choose Payment Method,N3NJS1809-57,10217,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,20/Jun/24 8:54 PM,21/Jun/24 3:57 PM,18/Jul/24 3:19 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,purple,,,0|i0017z:,,,,,,,,,,,,,,,,,,,,,,,,To Do,20/Jun/24 8:54 PM
+UC37 - Account Management - Delete Account,N3NJS1809-55,10215,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,20/Jun/24 8:47 PM,21/Jun/24 3:57 PM,18/Jul/24 3:19 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,purple,,,0|i0017j:,,,,,,,,,,,,,,,,,,,,,,,,To Do,20/Jun/24 8:47 PM
+UC36 - Account Management - Update Account,N3NJS1809-54,10214,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,20/Jun/24 8:46 PM,21/Jun/24 3:57 PM,18/Jul/24 3:19 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,purple,,,0|i0017b:,,,,,,,,,,,,,,,,,,,,,,,,To Do,20/Jun/24 8:46 PM
+UC35 - Account Management - Read Account,N3NJS1809-53,10213,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,20/Jun/24 8:46 PM,21/Jun/24 3:56 PM,18/Jul/24 3:19 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,purple,,,0|i00173:,,,,,,,,,,,,,,,,,,,,,,,,To Do,20/Jun/24 8:46 PM
+UC34 - Account Management - Create Account ,N3NJS1809-52,10212,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,20/Jun/24 8:46 PM,21/Jun/24 3:56 PM,18/Jul/24 3:19 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,purple,,,0|i0016v:,,,,,,,,,,,,,,,,,,,,,,,,To Do,20/Jun/24 8:46 PM
+UC33 - Invoice Management - Generate Invoices,N3NJS1809-51,10211,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,20/Jun/24 8:39 PM,21/Jun/24 3:56 PM,18/Jul/24 3:19 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,purple,,,0|i0016n:,,,,,,,,,,,,,,,,,,,,,,,,To Do,20/Jun/24 8:39 PM
+UC32 - Customer Infor Management - Delete Customer Infor,N3NJS1809-50,10210,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,20/Jun/24 8:32 PM,18/Jul/24 12:35 PM,18/Jul/24 3:19 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-84,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,purple,,,0|i0016f:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,,,,,,,,,,To Do,20/Jun/24 8:33 PM
+UC31 - Customer Infor Management - Update Customer Infor,N3NJS1809-49,10209,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,20/Jun/24 8:32 PM,18/Jul/24 12:35 PM,18/Jul/24 3:19 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-83,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,purple,,,0|i00167:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,,,,,,,,,,To Do,20/Jun/24 8:32 PM
+UC30 - Customer Infor Management - Read Customer Infor,N3NJS1809-48,10208,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,20/Jun/24 8:32 PM,18/Jul/24 12:35 PM,18/Jul/24 3:19 PM,,,0,CustomerInformationManagement,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-77,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,purple,,,0|i0015z:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,Unit,,Skip,,,,,,,To Do,20/Jun/24 8:32 PM
+UC29 - Customer Infor Management - Create Customer Infor,N3NJS1809-47,10207,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,19/Jun/24 11:08 PM,18/Jul/24 12:35 PM,21/Jun/24 5:48 PM,,,0,CustomerInformationManagement,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-74,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,,,,,,,purple,,,0|i0015r:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,Unit,,Skip,,,,,,,To Do,19/Jun/24 11:08 PM
+"UC27 - Customer Information Management Update Customer Information
+",N3NJS1809-46,10206,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,19/Jun/24 11:02 PM,18/Jul/24 2:02 PM,18/Jul/24 3:19 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-10,Customer Management,,,,,purple,,,0|i0015j:,,,,,NJS1809 Sprint 2,,,,,,,,,,,,,,,,,10170,Customer Management,To Do,19/Jun/24 11:02 PM
+"UC28 - Customer Information Management - Delete Customer Information
+",N3NJS1809-45,10205,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,19/Jun/24 11:02 PM,18/Jul/24 2:02 PM,18/Jul/24 3:19 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-159,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-10,Customer Management,,,,,purple,,,0|i0015n:,,,,,NJS1809 Sprint 2,,,,,,,,,,,,,,,,,10170,Customer Management,To Do,19/Jun/24 11:02 PM
+UC26- Customer Information Management - Create Customer Information,N3NJS1809-44,10204,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Do Nguyen My Anh,712020:efc959d6-196b-4f1a-a0e4-32a7627d31f9,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,19/Jun/24 11:00 PM,18/Jul/24 2:02 PM,18/Jul/24 1:58 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-98,N3NJS1809-129,N3NJS1809-135,N3NJS1809-153,N3NJS1809-146,N3NJS1809-145,N3NJS1809-143,N3NJS1809-138,N3NJS1809-163,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-10,Customer Management,,,,,purple,,,0|i0015f:,,,,,NJS1809 Sprint 2,,,,,,,,,,,,,,,,,10170,Customer Management,To Do,19/Jun/24 11:00 PM
+UC25 - Reporting - View report dashboard,N3NJS1809-42,10202,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,19/Jun/24 10:59 PM,21/Jun/24 3:54 PM,18/Jul/24 3:19 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-9,Dashboard report,,,,,purple,,,0|i0014n:,,,,,,,,,,,,,,,,,,,,,,10169,Dashboard report,To Do,19/Jun/24 10:59 PM
+UC18 - Purchase Management - Create Purchase bill ,N3NJS1809-41,10201,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,19/Jun/24 10:57 PM,18/Jul/24 2:58 PM,18/Jul/24 3:19 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,N3NJS1809-160,N3NJS1809-161,N3NJS1809-162,N3NJS1809-164,N3NJS1809-166,N3NJS1809-167,N3NJS1809-168,N3NJS1809-169,N3NJS1809-173,N3NJS1809-158,,,,,,,,,,,,,,,,,,{},,N3NJS1809-8,Purchase Management,,,,,purple,,,0|i0014f:,,,,,NJS1809 Sprint 2,,,,,,,,,,,,,,,,,10168,Purchase Management,To Do,19/Jun/24 10:57 PM
+UC19 - Pricing Management - Adjust ratio,N3NJS1809-36,10196,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,19/Jun/24 10:46 PM,18/Jul/24 3:14 PM,11/Jul/24 1:02 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-7,GoldPrice Management,,,,,purple,,,0|i0013b:,,,,,,,,,,,,,,,,,,,,,,10167,GoldPrice Management,To Do,19/Jun/24 10:46 PM
+UC14 - Promotion Management - Delete Promotion,N3NJS1809-30,10190,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,19/Jun/24 10:39 PM,18/Jul/24 3:15 PM,18/Jul/24 3:19 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-139,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-5,Promotion Management,,,,,purple,,,0|i0011a:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,,,,,,,,10165,Promotion Management,To Do,19/Jun/24 10:39 PM
+UC13 - Promotion Management - Update Promotion,N3NJS1809-29,10189,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,19/Jun/24 10:39 PM,18/Jul/24 3:18 PM,18/Jul/24 3:19 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-148,N3NJS1809-149,N3NJS1809-150,N3NJS1809-151,N3NJS1809-152,N3NJS1809-154,N3NJS1809-155,N3NJS1809-156,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-5,Promotion Management,,,,,purple,,,0|i00119:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,,,,,,,,10165,Promotion Management,To Do,19/Jun/24 10:39 PM
+UC12 - Promotion Management - Create Promotion,N3NJS1809-27,10187,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,19/Jun/24 10:38 PM,18/Jul/24 3:15 PM,18/Jul/24 3:19 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-102,N3NJS1809-103,N3NJS1809-104,N3NJS1809-105,N3NJS1809-107,N3NJS1809-108,N3NJS1809-109,N3NJS1809-110,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-5,Promotion Management,,,,,purple,,,0|i0011b:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,,,,,,,,10165,Promotion Management,To Do,19/Jun/24 10:38 PM
+UC 08 - Counter Management - Edit Counter,N3NJS1809-26,10186,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,19/Jun/24 10:37 PM,18/Jul/24 2:52 PM,18/Jul/24 3:19 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-62,,,,,,,,,,,,,,,,,,N3NJS1809-170,N3NJS1809-171,N3NJS1809-172,,,,,,,,,,,,,,,,{},,N3NJS1809-4,Counter Management,,,,,purple,,,0|i00113:,,,,,NJS1809 Sprint 2,,,,,,,,,,,,,,,,,10164,Counter Management,To Do,19/Jun/24 10:37 PM
+UC04 - Jewellry Management - Update Products,N3NJS1809-24,10184,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,19/Jun/24 10:27 PM,18/Jul/24 2:01 PM,18/Jul/24 2:00 PM,,,0,ProductManagement,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,N3NJS1809-128,N3NJS1809-130,N3NJS1809-132,N3NJS1809-134,N3NJS1809-136,N3NJS1809-140,N3NJS1809-142,N3NJS1809-144,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-2,Jewellry Management,,,,,purple,,,0|i0010b:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,Unit,,Skip,,,,,10162,Jewellry Management,To Do,19/Jun/24 10:27 PM
+UC03 - Jewellry Management - Delete Products,N3NJS1809-23,10183,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,19/Jun/24 10:26 PM,18/Jul/24 2:01 PM,18/Jul/24 3:19 PM,,,0,ProductManagement,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-66,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-2,Jewellry Management,,,,,purple,,,0|i00107:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,Unit,,Skip,,,,,10162,Jewellry Management,To Do,19/Jun/24 10:26 PM
+UC05 -Staff Management- Manager create staff,N3NJS1809-22,10182,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,19/Jun/24 10:25 PM,18/Jul/24 3:14 PM,18/Jul/24 3:15 PM,,,0,StaffManagement,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,N3NJS1809-59,N3NJS1809-91,N3NJS1809-92,N3NJS1809-93,N3NJS1809-94,N3NJS1809-96,N3NJS1809-131,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-3,Staff Management,,,,,purple,,,0|i0010f:,,,,,NJS1809 Sprint 2,,,,,,,,,,,,,,,,,10163,Staff Management,To Do,19/Jun/24 10:25 PM
+UC02 - Jewellry Management - Create Products,N3NJS1809-20,10180,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,17/Jun/24 3:01 PM,18/Jul/24 2:01 PM,18/Jul/24 2:00 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,N3NJS1809-68,N3NJS1809-113,N3NJS1809-114,N3NJS1809-115,N3NJS1809-116,N3NJS1809-119,N3NJS1809-122,N3NJS1809-124,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-2,Jewellry Management,,,,,purple,,,0|i000zz:,,,,,N3NJS180 Sprint 1,NJS1809 Sprint 2,,,,,,,,,,,,,,,,10162,Jewellry Management,To Do,17/Jun/24 3:01 PM
+UC01- User Authentication - Login ,N3NJS1809-17,10177,Story,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,17/Jun/24 1:02 PM,18/Jul/24 2:01 PM,18/Jul/24 2:00 PM,,,0,UserAuthentication,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,,,,,,,,,N3NJS1809-63,,,,,,,,,N3NJS1809-87,N3NJS1809-88,,,,,,,,,,,,,,,,,,,,,,,,,,{},,N3NJS1809-1,User Authentication,,,,,purple,,,0|i000zb:,,,,,N3NJS180 Sprint 1,,,,,,,,,,Unit,,Skip,,,,,10161,User Authentication,To Do,17/Jun/24 1:02 PM
+Customer Management,N3NJS1809-10,10170,Epic,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,13/Jun/24 1:11 PM,18/Jul/24 6:42 AM,17/Jul/24 4:21 PM,,22/Jul/24 12:00 AM,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-9,,,Order Management,To Do,,,orange,,,0|i000xr:,,,,,,,09/Jul/24 12:00 AM,,,,,,,,,,,,,,,,,To Do,13/Jun/24 1:11 PM
+Dashboard report,N3NJS1809-9,10169,Epic,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,13/Jun/24 1:11 PM,17/Jul/24 5:17 PM,17/Jul/24 4:20 PM,,22/Jul/24 12:00 AM,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-3,,,Account Management,To Do,,,yellow,,,0|i000xj:,,,,,,,09/Jul/24 12:00 AM,,,,,,,,,,,,,,,,,To Do,13/Jun/24 1:11 PM
+Purchase Management,N3NJS1809-8,10168,Epic,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyễn Lê Khôi,712020:586ced39-a98a-4037-8a62-d032a63f562a,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,13/Jun/24 1:11 PM,18/Jul/24 1:35 PM,17/Jul/24 4:14 PM,,22/Jul/24 12:00 AM,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-7,,,Reporting and Dashboard,To Do,,,purple,,,0|i000xb:,,,,,,,09/Jul/24 12:00 AM,,,,,,,,,,,,,,,,,To Do,13/Jun/24 1:11 PM
+GoldPrice Management,N3NJS1809-7,10167,Epic,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,13/Jun/24 1:10 PM,17/Jul/24 5:17 PM,17/Jul/24 4:16 PM,,22/Jul/24 12:00 AM,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-11,,,Pricing and Buy-back Configuration,To Do,,,teal,,,0|i000x3:,,,,,,,09/Jul/24 12:00 AM,,,,,,,,,,,,,,,,,To Do,13/Jun/24 1:10 PM
+Sale Management,N3NJS1809-6,10166,Epic,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Hồ Hữu Phước,712020:a0a953d5-90e0-4a73-bc0c-3340c8b3c1a2,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,13/Jun/24 1:10 PM,18/Jul/24 12:18 PM,17/Jul/24 11:45 PM,,22/Jul/24 12:00 AM,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-6,,,Guarantee Management,To Do,,,green,,,0|i000wv:,,,,,,,09/Jul/24 12:00 AM,,,,,,,,,,,,,,,,,To Do,13/Jun/24 1:10 PM
+Promotion Management,N3NJS1809-5,10165,Epic,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Nguyen Dong Giang (K18 HCM),712020:19a3c59e-2216-43d3-aafc-69339756e680,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,13/Jun/24 1:10 PM,18/Jul/24 1:11 PM,18/Jul/24 12:36 PM,,22/Jul/24 12:00 AM,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-2,,,Promotion Management,To Do,,,dark_yellow,,,0|i000wn:,,,,,,,09/Jul/24 12:00 AM,,,,,,,,,,,,,,,,,To Do,13/Jun/24 1:10 PM
+Counter Management,N3NJS1809-4,10164,Epic,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,13/Jun/24 1:09 PM,18/Jul/24 2:52 PM,18/Jul/24 3:19 PM,,22/Jul/24 12:00 AM,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-7,,,Staff Operations,To Do,,,purple,,,0|i000wf:,,,,,,,09/Jul/24 12:00 AM,,,,,,,,,,,,,,,,,To Do,13/Jun/24 1:09 PM
+Staff Management,N3NJS1809-3,10163,Epic,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,13/Jun/24 1:08 PM,17/Jul/24 9:59 PM,18/Jul/24 3:19 PM,,22/Jul/24 12:00 AM,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-11,,,Counter Management,To Do,,,teal,,,0|i000w7:,,,,,,,09/Jul/24 12:00 AM,,,,,,,,,,,,,,,,,To Do,13/Jun/24 1:08 PM
+Jewellry Management,N3NJS1809-2,10162,Epic,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,13/Jun/24 1:08 PM,18/Jul/24 2:01 PM,17/Jul/24 4:13 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-13,,,Staff Management and Operations,To Do,,,dark_green,,,0|i000vz:,,,,,,,,,,,,,,,,,,,,,,,,To Do,13/Jun/24 1:08 PM
+User Authentication,N3NJS1809-1,10161,Epic,To Do,N3NJS1809,N3_NJS1809_SWP,software,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,Medium,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,13/Jun/24 1:08 PM,18/Jul/24 12:44 AM,18/Jul/24 12:35 PM,,,0,,,,Trương Minh Phước,712020:5eb85af2-71b5-4db7-b278-cb5d58420ad5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,{},ghx-label-2,,,User Authentication,To Do,,,dark_yellow,,,0|i000vr:,,,,,,,,,,,,,,,,,,,,,,,,To Do,13/Jun/24 1:08 PM
