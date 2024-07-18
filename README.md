@@ -36,9 +36,9 @@ Jewelry Store Sales Management Software for a jewelry business operating a singl
 ## Tasks
 | Members | Sprints 1 | Sprint 2 | 
 |----------|----------|----------|
-|Trương Minh Phước  | 01  | 06, 07 , 08 |
-|Nguyễn Lê Khôi |  |02, 03 , 04, 017, 018 |
-|Nguyễn Đông Giang | | Counte | 
-|Đỗ Nguyễn Mỹ Anh |  | Reporting | 
-|Hồ Hữu Phước | | 014 , 015 , 016 | 
+|Trương Minh Phước  | 01  | 05, 06 , 07 |
+|Nguyễn Lê Khôi |  |02, 03 , 04, 018, 019 |
+|Nguyễn Đông Giang | | 12, 13, 14 | 
+|Đỗ Nguyễn Mỹ Anh |  | 08, 09 , 010, 011, 020 , 021 , 022 | 
+|Hồ Hữu Phước | | 015 , 016 , 017 | 
 
