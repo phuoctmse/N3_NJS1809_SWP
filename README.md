@@ -29,8 +29,8 @@ Jewelry Store Sales Management Software for a jewelry business operating a singl
 ## Sprints
 | Sprints | Use Case |
 |----------|----------|
-| 1   | 01 , 09, 010, 011   |
-| 2   | Staff Management , Counter Management , Reporting  , Account Management    |
+| 1   | 01  |
+| 2   | 02 -) 018, 026 -) 028  |
 
 
 ## Tasks
