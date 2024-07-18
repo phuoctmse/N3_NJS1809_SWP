@@ -29,17 +29,16 @@ Jewelry Store Sales Management Software for a jewelry business operating a singl
 ## Sprints
 | Sprints | Use Case |
 |----------|----------|
-| 1   | 01 , 02 , 03 -) 06 , 09 -) 013 , 029 -) 032   |
-| 2   | Staff Management , Counter Management , Reporting  , Account Management    |
-| 3   | Order Management , Invoice Management , Payment Processing   |
-| 4   | Guarantee Management , Pricing Management , Buy-back Management   |
+| 1   | 01  |
+| 2   | 02 -) 018, 026 -) 028  |
+
 
 ## Tasks
-| Members | Sprints 1 | Sprint 2 | Sprint 3 | Sprint 4 |
-|----------|----------|----------|----------|----------|
-|Trương Minh Phước  | 01 , 02 | Staff Management | Payment Processing | |
-|Nguyễn Lê Khôi | 03 -) 06 | | Order Mangement | Guarantee Management |
-|Nguyễn Đông Giang | 09 -) 013 | Counter Management |  |
-|Đỗ Nguyễn Mỹ Anh | 029 -) 032 | Reporting | | Pricing Management |
-|Hồ Hữu Phước | | Account Management | Invoice Management | Buy-back Management |
+| Members | Sprints 1 | Sprint 2 | 
+|----------|----------|----------|
+|Trương Minh Phước  | 01  | 05, 06 , 07 |
+|Nguyễn Lê Khôi |  |02, 03 , 04, 018, 019 |
+|Nguyễn Đông Giang | | 12, 13, 14 | 
+|Đỗ Nguyễn Mỹ Anh |  | 08, 09 , 010, 011, 020 , 021 , 022 | 
+|Hồ Hữu Phước | | 015 , 016 , 017 | 
 
